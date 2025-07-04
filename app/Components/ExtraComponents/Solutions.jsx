@@ -13,7 +13,7 @@ const solutionImages = [
 const Solutions = () => {
   return (
     <div className="bg-gradient-to-r from-gray-100 to-white py-12 px-4 md:px-10 text-center">
-      <h2 className="text-2xl md:text-5xl font-bold text-[#8E54FF] mb-10">
+      <h2 className="text-4xl md:text-5xl font-bold text-[#8E54FF] mb-10">
         Solutions
       </h2>
 
