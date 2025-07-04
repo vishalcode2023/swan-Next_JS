@@ -5,23 +5,23 @@ import Image from "next/image";
 const categories = [
   {
     label: "Rice Color Sorter",
-    icon: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1751515477/Rice_qb8zrl.png",
+    icon: "/photo-1612708074992-c7936e82c99b.avif",
   },
   {
     label: "Coffee Color Sorter",
-    icon: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1751515408/Coffee_rxdwkx.png",
+    icon: "/coffee-beans-and-ground-coffee.webp",
   },
   {
     label: "Nut Color Sorter",
-    icon: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1751515311/Nut_gwmzu4.png",
+    icon: "/360_F_407042220_gd0K3aNiJQTFPwg7BRw6p4Zlm75LEzRl.webp",
   },
   {
     label: "Bean Color Sorter",
-    icon: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1751515408/Bean_we3s6o.png",
+    icon: "/cotton.webp",
   },
   {
     label: "Plastic Color Sorter",
-    icon: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1751515311/plastic_c5yfs4.png",
+    icon: "/plastic-pellets.webp",
   },
 ];
 
@@ -37,14 +37,14 @@ const ProductCategory = () => {
           {/* Category List */}
           <div className="space-y-6 w-full md:w-1/2">
             {categories.map((cat, i) => (
-              <div key={i} className="flex items-center gap-4 bg-white rounded-lg p-3 shadow-md hover:shadow-lg transition">
-                <div className="w-12 h-12 flex items-center justify-center">
+              <div key={i} className="flex items-center gap-4  rounded-lg p-3 ">
+                <div className="w-16 h-12 flex items-center justify-center">
                   <Image
                     src={cat.icon}
                     alt={cat.label}
                     width={48}
                     height={48}
-                    className="object-contain"
+                    className="object-cover w-24 h-16 rounded-full"
                   />
                 </div>
                 <p className="text-lg font-medium text-gray-800 text-left">
