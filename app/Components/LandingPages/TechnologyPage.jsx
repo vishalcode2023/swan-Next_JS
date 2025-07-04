@@ -233,6 +233,7 @@ const TechnologyPage = () => {
   const videoUrls = [
     "https://player.cloudinary.com/embed/?cloud_name=dt2juqy9s&public_id=cccf6aa4-8c6f-467c-a1f0-e08629e44969_wvcatj&profile=cld-default",
     "https://player.cloudinary.com/embed/?cloud_name=dt2juqy9s&public_id=5822ac68-f2a8-403a-af05-8402202d9002_vc5u17&profile=cld-default",
+     "https://player.cloudinary.com/embed/?cloud_name=dt2juqy9s&public_id=e29c5a71-c641-4592-a878-d7b633589415_g5nbi7&profile=cld-default"
   ];
 
   const [videoIndex, setVideoIndex] = useState(0);
