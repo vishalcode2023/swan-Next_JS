@@ -5,15 +5,15 @@ import Image from "next/image";
 const solutionImages = [
   "/quartz.webp",
   "/photo-1571727153934-b9e0059b7ab2.avif",
-  "/360_F_69517650_puotOHAWs5rTQ5Nj4LzVkBMPk8r0V4nB.webp",
+  "/360_F_422437204_ZAa0YLQ6LEPm4dh98Cktnk84BLkfWjvw.webp",
   "/360_F_407042220_gd0K3aNiJQTFPwg7BRw6p4Zlm75LEzRl.webp",
-  "/360_F_251903391_dEPKuDRvDF4kwEkzTH6dUfj20SxsXg50.webp",
+  "/photo-1574323347407-f5e1ad6d020b.avif",
 ];
 
 const Solutions = () => {
   return (
     <div className="bg-gradient-to-r from-gray-100 to-white py-12 px-4 md:px-10 text-center">
-      <h2 className="text-2xl md:text-5xl font-bold text-gray-800 mb-10">
+      <h2 className="text-2xl md:text-5xl font-bold text-[#8E54FF] mb-10">
         Solutions
       </h2>
 
