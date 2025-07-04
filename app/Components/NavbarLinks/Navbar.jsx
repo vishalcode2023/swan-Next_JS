@@ -275,7 +275,7 @@ const Navbar = () => {
             className="hover:text-blue-600"
             onClick={() => setMenuOpen(false)}
           >
-            products
+            Products
           </Link>
 
           <div className="pt-2">
