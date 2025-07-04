@@ -1,31 +1,50 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 
+// Each category has: label, icon (small), bg (background), product image
 const categories = [
   {
     label: "Rice Color Sorter",
     icon: "/photo-1612708074992-c7936e82c99b.avif",
+    bg: "/photo-1612708074992-c7936e82c99b.avif", // Add these images in public/
+    product:
+      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876029/192_Channel_Forward_3_chute_kxffex.jpg",
   },
   {
     label: "Coffee Color Sorter",
     icon: "/coffee-beans-and-ground-coffee.webp",
+    bg: "/coffee-beans-and-ground-coffee.webp",
+    product:
+      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875993/128_Channel_Forward_2_chute_bgl5ai.jpg",
   },
   {
     label: "Nut Color Sorter",
     icon: "/360_F_407042220_gd0K3aNiJQTFPwg7BRw6p4Zlm75LEzRl.webp",
+    bg: "/360_F_407042220_gd0K3aNiJQTFPwg7BRw6p4Zlm75LEzRl.webp",
+    product:
+      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
   },
   {
     label: "Bean Color Sorter",
     icon: "/cotton.webp",
+    bg: "/cotton.webp",
+    product:
+      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg",
   },
   {
     label: "Plastic Color Sorter",
     icon: "/plastic-pellets.webp",
+    bg: "/plastic-pellets.webp",
+    product:
+      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg",
   },
 ];
 
 const ProductCategory = () => {
+  const [selectedCategory, setSelectedCategory] = useState(categories[0]);
+
   return (
     <div className="w-full bg-gradient-to-r from-gray-100 to-white py-16">
       <div className="max-w-6xl mx-auto px-4 text-center">
@@ -37,7 +56,15 @@ const ProductCategory = () => {
           {/* Category List */}
           <div className="space-y-6 w-full md:w-1/2">
             {categories.map((cat, i) => (
-              <div key={i} className="flex items-center gap-4  rounded-lg p-3 ">
+              <div
+                key={i}
+                className={`flex items-center gap-4 rounded-lg p-3 cursor-pointer transition ${
+                  selectedCategory.label === cat.label
+                    ? "bg-blue-100"
+                    : "hover:bg-gray-100"
+                }`}
+                onClick={() => setSelectedCategory(cat)}
+              >
                 <div className="w-16 h-12 flex items-center justify-center">
                   <Image
                     src={cat.icon}
@@ -56,12 +83,21 @@ const ProductCategory = () => {
 
           {/* Product Image */}
           <div className="w-full md:w-1/2 flex justify-center">
-            <div className="rounded-xl overflow-hidden shadow-lg max-w-md">
-              <img
-                src="https://res.cloudinary.com/dt2juqy9s/image/upload/v1746543795/img16_x7kqtm.png"
-                alt="Product Machine"
-                className="w-full h-auto object-contain"
-              />
+            <div
+              className="rounded-xl overflow-hidden shadow-lg max-w-md w-full h-72 bg-center bg-cover flex items-center justify-center"
+              style={{
+                backgroundImage: `url(${selectedCategory.bg})`,
+              }}
+            >
+          
+              <div className="relative w-64 h-52 rounded-xl overflow-hidden">
+                <Image
+                  src={selectedCategory.product}
+                  alt={selectedCategory.label}
+                  fill
+                  className="object-contain rounded-xl"
+                />
+              </div>
             </div>
           </div>
         </div>
