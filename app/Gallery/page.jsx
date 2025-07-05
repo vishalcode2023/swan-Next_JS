@@ -60,7 +60,7 @@ const GalleryPage = () => {
 
       <div className="text-center mb-16">
         <h1 className="text-3xl sm:text-3xl pt-16 font-semibold text-gray-800 leading-tight mb-6">
-          <span className="bg-gradient-to-r from-teal-500 to-indigo-600 text-white px-6 py-3 rounded-2xl">
+          <span className="bg-gradient-to-r from-green-400 to-blue-400  text-white px-6 py-3 rounded-2xl">
             Explore Our Gallery
           </span>
         </h1>
