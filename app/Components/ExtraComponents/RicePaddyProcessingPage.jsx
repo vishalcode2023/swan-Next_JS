@@ -106,22 +106,9 @@ const products = [
   },
 
   {
-    name: "128 Channel Color Sorter",
+    name: "Packaging Machine",
     image:
       "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", // Placeholder image
-    link: "#",
-  },
-  {
-    name: "256 Channel Color Sorter",
-    image:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg", // Placeholder image
-    link: "#",
-  },
-
-  {
-    name: "320 Channel Color Sorter",
-    image:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875532/320_Channel_5_chute_pyq62s.jpg", // Placeholder image
     link: "#",
   },
 ];
