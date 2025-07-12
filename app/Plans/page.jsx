@@ -10,7 +10,9 @@ import RicePaddyProcessingPage from "../Components/ExtraComponents/RicePaddyProc
 
 const data = {
   Rice: {
-    flow: ["https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png"],
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
     sorting: [
       {
         label: "Finished Product",
@@ -199,7 +201,9 @@ const data = {
     ],
   },
   Nut: {
-    flow: ["https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217733/nutsorting_pdwp4p.png"],
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217733/nutsorting_pdwp4p.png",
+    ],
     sorting: [
       {
         label: "Half Walnut",
@@ -322,7 +326,9 @@ const data = {
     ],
   },
   "Coffee Beans": {
-    flow: ["https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217865/coffeesorting_rgaz1u.png"],
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217865/coffeesorting_rgaz1u.png",
+    ],
     sorting: [
       {
         label: "Good Beans",
@@ -371,7 +377,9 @@ const data = {
     ],
   },
   Plastic: {
-    flow: ["https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png"],
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png",
+    ],
     sorting: [
       {
         label: "Good ABS",
@@ -436,7 +444,9 @@ const data = {
     ],
   },
   Seed: {
-    flow: ["https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png"],
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
     sorting: [
       {
         label: "Raw Material",
@@ -472,8 +482,283 @@ const data = {
       },
     ],
   },
+  Cashew: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
+  GroundNut: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
+  RagiPlant: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
+  Wheat: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
+  FriedGram: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
+  Raisin: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
+  Quartz_and_Minerals: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+    ],
+    sorting: [
+      {
+        label: "Raw Material",
+        img: "",
+      },
+      {
+        label: "White Ouinoa",
+        img: "",
+      },
+      {
+        label: "Red Ouinoa",
+        img: "",
+      },
+      {
+        label: "Black Ouinoa",
+        img: "",
+      },
+      {
+        label: "Brown Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+      {
+        label: "Black Good",
+        img: "",
+      },
+      {
+        label: "Defective",
+        img: "",
+      },
+    ],
+  },
   Other: {
-    flow: ["https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png"],
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png",
+    ],
     sorting: [
       {
         label: "Good ",
@@ -607,6 +892,7 @@ const data = {
       },
     ],
   },
+  
 };
 
 const tabs = Object.keys(data);
@@ -617,19 +903,18 @@ export default function PlanPage() {
   return (
     <div>
       <Navbar />
-      <RicePaddyProcessingPage />
       <div className="px-4 md:px-16 py-12 bg-white text-center min-h-screen">
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-4 tracking-tight">
-          Plan
+          Complete End To End Sorting Plan
         </h1>
         <p className="text-gray-600 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
-          We can sort over{" "}
-          <span className="font-semibold text-gray-700">70,000 materials</span>{" "}
-          in more than{" "}
-          <span className="font-semibold text-gray-700">300 industries</span>{" "}
-          based on color and quality, including rice, coffee beans, nuts, beans,
-          tea, plastics, minerals and more.
+          Our customizable systems are designed to maximize productivity while
+          maintaining the integrity and appearance of your produce. With a focus
+          on energy efficiency and sustainability, GrainTech offers reliable and
+          innovative solutions tailored to meet the unique needs of your
+          processing facility. Partner with us to enhance your operations and
+          achieve the highest quality output.
         </p>
 
         {/* Tabs */}
@@ -649,7 +934,9 @@ export default function PlanPage() {
           ))}
         </div>
 
-        
+        {/* <div className="md: relative -top-10">
+          <RicePaddyProcessingPage />
+        </div> */}
 
         {/* Sorting Section */}
         {data[active]?.sorting && (
@@ -677,7 +964,12 @@ export default function PlanPage() {
           </>
         )}
 
-        {/* Flow Section */}{/* Flow Chart */}
+        <div className="md: relative -top-10">
+          <RicePaddyProcessingPage />
+        </div>
+
+        {/* Flow Section */}
+        {/* Flow Chart */}
         {data[active]?.flow && (
           <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
@@ -695,7 +987,6 @@ export default function PlanPage() {
             </div>
           </div>
         )}
-
       </div>
       <ContactSidebar />
       <ChatBot />
