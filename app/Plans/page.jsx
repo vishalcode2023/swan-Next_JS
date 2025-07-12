@@ -934,9 +934,9 @@ export default function PlanPage() {
           ))}
         </div>
 
-        {/* <div className="md: relative -top-10">
+        <div className="md: relative -top-10">
           <RicePaddyProcessingPage />
-        </div> */}
+        </div> 
 
         {/* Sorting Section */}
         {data[active]?.sorting && (
@@ -964,11 +964,7 @@ export default function PlanPage() {
           </>
         )}
 
-        <div className="md: relative -top-10">
-          <RicePaddyProcessingPage />
-        </div>
 
-        {/* Flow Section */}
         {/* Flow Chart */}
         {data[active]?.flow && (
           <div className="mb-12">
