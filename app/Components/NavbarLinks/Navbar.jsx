@@ -119,7 +119,6 @@ const Navbar = () => {
           <Link href="/R&D" className="hover:text-gray-300 transition">R&D</Link>
           <Link href="/Productss" className="hover:text-gray-300 transition">Products</Link>
           <Link href="/Plans" className="hover:text-gray-300 transition">Plans</Link>
-          <Link href="/Pulsesprocessing" className="hover:text-gray-300 transition">Pulses</Link>
           <div className="mx-2"><GoogleTranslateDropdown /></div>
         </motion.div>
 
@@ -194,7 +193,7 @@ const Navbar = () => {
           <Link href="/R&D" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>R&D</Link>
           <Link href="/Productss" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Products</Link>
           <Link href="/Plans" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Plans</Link>
-          <Link href="/Pulsesprocessing" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Pulses</Link>
+     
           <div className="pt-2">
             <GoogleTranslateDropdown />
           </div>
