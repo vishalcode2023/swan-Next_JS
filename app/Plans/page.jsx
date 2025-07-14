@@ -503,7 +503,7 @@ const data = {
   },
   GroundNut: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752507901/WhatsApp_Image_2025-07-14_at_5.27.09_PM_zxgn3j.jpg",
     ],
     sorting: [
       {
