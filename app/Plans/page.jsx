@@ -1,13 +1,12 @@
 "use client";
 import { useState } from "react";
-import FlowChart from "../Components/ExtraComponents/FlowChart";
 import Footerpage from "../Components/LandingPages/Footerpage";
 import Navbar from "../Components/NavbarLinks/Navbar";
 import ChatBot from "../Components/ChatBot/ChatBot";
 import AutoPopupChat from "../Components/LandingPages/AutoComponentspop";
 import ContactSidebar from "../Components/LandingPages/ContactSidebar";
-import RicePaddyProcessingPage from "../Components/ExtraComponents/RicePaddyProcessingPage";
 
+// Data for different product categories, including flow charts and sorting examples
 const data = {
   Rice: {
     flow: [
@@ -464,40 +463,32 @@ const data = {
   },
   Cashew: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Raw Cashew",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Raw+Cashew",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Whole Cashew",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Whole+Cashew",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Broken Cashew",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Cashew",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
+        label: "Scorched Cashew",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Scorched+Cashew",
       },
       {
-        label: "Brown Good",
-        img: "",
+        label: "Dark Spot",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Dark+Spot",
       },
       {
-        label: "Defective",
-        img: "",
-      },
-      {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Foreign Matter",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
       },
     ],
   },
@@ -507,231 +498,178 @@ const data = {
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Good Groundnut",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Groundnut",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Broken Groundnut",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Groundnut",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Discolored",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
+        label: "Foreign Material",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Material",
       },
       {
-        label: "Brown Good",
-        img: "",
+        label: "Shriveled",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Shriveled",
       },
       {
-        label: "Defective",
-        img: "",
-      },
-      {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Mouldy",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Mouldy",
       },
     ],
   },
   RagiPlant: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Good Ragi",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Ragi",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Immature Ragi",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Immature+Ragi",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Broken Ragi",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Ragi",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
-      },
-      {
-        label: "Brown Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
-      },
-      {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Foreign Matter",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
       },
     ],
   },
   Wheat: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Good Wheat",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Wheat",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Shriveled Wheat",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Shriveled+Wheat",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Broken Wheat",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Wheat",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
+        label: "Discolored Wheat",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Wheat",
       },
       {
-        label: "Brown Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
-      },
-      {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Foreign Matter",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
       },
     ],
   },
   FriedGram: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Good Fried Gram",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Fried+Gram",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Broken Fried Gram",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Fried+Gram",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Discolored",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
-      },
-      {
-        label: "Brown Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
-      },
-      {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Foreign Matter",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
       },
     ],
   },
   Raisin: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Good Raisin",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Raisin",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Stem",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Stem",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Capstem",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Capstem",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
+        label: "Light Berry",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Light+Berry",
       },
       {
-        label: "Brown Good",
-        img: "",
+        label: "Damaged",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Damaged",
       },
       {
-        label: "Defective",
-        img: "",
-      },
-      {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Foreign Matter",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
       },
     ],
   },
   Quartz_and_Minerals: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raw Material",
-        img: "",
+        label: "Good Quartz",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Quartz",
       },
       {
-        label: "White Ouinoa",
-        img: "",
+        label: "Discolored Quartz",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Quartz",
       },
       {
-        label: "Red Ouinoa",
-        img: "",
+        label: "Impurity",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Impurity",
       },
       {
-        label: "Black Ouinoa",
-        img: "",
+        label: "Other Minerals",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Other+Minerals",
+      },
+    ],
+  },
+  Pulses: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+    ],
+    sorting: [
+      {
+        label: "Good Quartz",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Quartz",
       },
       {
-        label: "Brown Good",
-        img: "",
+        label: "Discolored Quartz",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Quartz",
       },
       {
-        label: "Defective",
-        img: "",
+        label: "Impurity",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Impurity",
       },
       {
-        label: "Black Good",
-        img: "",
-      },
-      {
-        label: "Defective",
-        img: "",
+        label: "Other Minerals",
+        img: "https://placehold.co/160x100/ADD8E6/000000?text=Other+Minerals",
       },
     ],
   },
@@ -872,13 +810,238 @@ const data = {
       },
     ],
   },
-  
 };
 
-const tabs = Object.keys(data);
+// Machine data for each category
+const machineData = {
+  Rice: [
+    {
+      name: "Paddy Pre-cleaner",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro Classifier",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/05/GVCA-212-9000_00-01-768x489.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro De-Stoner",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/01/GVDA-2D-120-9000_00-01-768x672.jpg",
+      link: "#",
+    },
+    {
+      name: "Pneumatic Sheller",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/01/SLP08481-768x768.jpg",
+      link: "#",
+    },
+    {
+      name: "Husk Aspirator",
+      image: "https://graintecindustries.com/wp-content/uploads/2024/10/HUSK_ASPIRATOR-removebg-preview.png",
+      link: "#",
+    },
+    {
+      name: "Husk Separator",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/01/Husker-Husse-02-768x555.jpg",
+      link: "#",
+    },
+    {
+      name: "Paddy Separator",
+      image: "https://graintecindustries.com/wp-content/uploads/2024/10/PADDY_SEPARATOR-removebg-preview.png",
+      link: "#",
+    },
+    {
+      name: "Rice De-Stoner",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/01/Rice-Destoner-02-768x659.png",
+      link: "#",
+    },
+    {
+      name: "Thick & Thin Grader",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/01/GTGA-6D-9000_00-01-768x987.jpg",
+      link: "#",
+    },
+    {
+      name: "Rice Whitener",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/04/RICE-WHITENER-02-768x785.jpg",
+      link: "#",
+    },
+    {
+      name: "Rice Polisher",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/01/Silky-Polisher-02-768x756.png",
+      link: "#",
+    },
+    {
+      name: "Rice Silky Polisher", // This name seems redundant with "Rice Polisher"
+      image: "https://graintecindustries.com/wp-content/uploads/2024/10/ROTARY_SIFTER-removebg-preview.png",
+      link: "#",
+    },
+    {
+      name: "Rotary Sifter",
+      image: "https://graintecindustries.com/wp-content/uploads/2025/04/LENGTH-GRADER-03-768x432.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+      link: "#",
+    },
+  ],
+  // Beans: [
+  //   { name: "Bean Processing Machine 1", image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+1", link: "#" },
+  //   { name: "Bean Processing Machine 2", image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+2", link: "#" },
+  // ],
+  // Nut: [
+  //   { name: "Nut Shelling Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=Nut+Shelling", link: "#" },
+  //   { name: "Nut Roasting Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=Nut+Roasting", link: "#" },
+  // ],
+  // "Coffee Beans": [
+  //   { name: "Coffee Roaster", image: "https://placehold.co/160x100/ADD8E6/000000?text=Coffee+Roaster", link: "#" },
+  //   { name: "Coffee Grinder", image: "https://placehold.co/160x100/ADD8E6/000000?text=Coffee+Grinder", link: "#" },
+  // ],
+  // Plastic: [
+  //   { name: "Plastic Shredder", image: "https://placehold.co/160x100/ADD8E6/000000?text=Plastic+Shredder", link: "#" },
+  //   { name: "Plastic Extruder", image: "https://placehold.co/160x100/ADD8E6/000000?text=Plastic+Extruder", link: "#" },
+  // ],
+  // Seed: [
+  //   { name: "Seed Cleaner", image: "https://placehold.co/160x100/ADD8E6/000000?text=Seed+Cleaner", link: "#" },
+  //   { name: "Seed Coater", image: "https://placehold.co/160x100/ADD8E6/000000?text=Seed+Coater", link: "#" },
+  // ],
+  // Cashew: [
+  //   { name: "Cashew Roaster", image: "https://placehold.co/160x100/ADD8E6/000000?text=Cashew+Roaster", link: "#" },
+  //   { name: "Cashew Peeling Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=Cashew+Peeling", link: "#" },
+  // ],
+  GroundNut: [
+    { name: "Pre Cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.53_PM_ukvm4x.jpg", link: "#" },
+    { name: "Destoner Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.32.10_PM_mwy0dc.jpg", link: "#" },
+    { name: "Decadicator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511025/WhatsApp_Image_2025-07-14_at_12.27.54_PM_t3sfx5.jpg", link: "#" },
+    { name: "Shaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511023/WhatsApp_Image_2025-07-14_at_12.27.54_PM_2_wwh2aw.jpg", link: "#" },
+    { name: "Shaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.54_PM_1_h6pkco.jpg", link: "#" },
+  ],
+  // RagiPlant: [
+  //   { name: "Ragi Thresher", image: "https://placehold.co/160x100/ADD8E6/000000?text=Ragi+Thresher", link: "#" },
+  //   { name: "Ragi Cleaner", image: "https://placehold.co/160x100/ADD8E6/000000?text=Ragi+Cleaner", link: "#" },
+  // ],
+  Wheat: [
+    { name: "Drum Sieve", image: "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg", link: "#" },
+    { name: "Grain Pre Cleaner", image: "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg", link: "#" },
+    { name: "Vibro Classifier",image:"https://graintecindustries.com/wp-content/uploads/2025/01/GVCA-212-9000_00-01-768x489.jpg", link: "#" },
+    {name: "De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2025/03/SLP08733-768x768.jpg", link: "#" },
+    {name: "Vibro De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png", link:"#"},
+    {name: "Mud Ball Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg", link:"#"},
+    {name: "Gravity Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg", link:"#"},
+  {
+    name: "Pulse De Huller",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
+  },
+  {
+    name: "Vibro Aspirator",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/01/Vibro_Aspirator_02-removebg-preview.png", // Placeholder image
+  },
+  {
+    name: "Fatka Splitter",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/04/Fatka-02-768x758.jpg", // Placeholder image
+  },
+  {
+    name: "Pulse De Huller",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
+  },
+  {
+    name: "Chakki Splitter",
+    image:"http://graintecindustries.com/wp-content/uploads/2025/04/CHAKKI-03-768x987.jpg", // Placeholder image
+  },
+  {
+    name: "Dal Buff Polisher",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/04/Buff_Polisher-07-768x779.jpg", // Placeholder image
+  },
+   {
+    name: "Wheat separator",
+    image:"https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.46.52_PM_ayw39o.jpg", // Placeholder image
+  },
+  ],
+  // FriedGram: [
+  //   { name: "Gram Roaster", image: "https://placehold.co/160x100/ADD8E6/000000?text=Gram+Roaster", link: "#" },
+  //   { name: "Gram Splitter", image: "https://placehold.co/160x100/ADD8E6/000000?text=Gram+Splitter", link: "#" },
+  // ],
+  // Raisin: [
+  //   { name: "Raisin Dryer", image: "https://placehold.co/160x100/ADD8E6/000000?text=Raisin+Dryer", link: "#" },
+  //   { name: "Raisin Sorter", image: "https://placehold.co/160x100/ADD8E6/000000?text=Raisin+Sorter", link: "#" },
+  // ],
+  // Quartz_and_Minerals: [
+  //   { name: "Quartz Crusher", image: "https://placehold.co/160x100/ADD8E6/000000?text=Quartz+Crusher", link: "#" },
+  //   { name: "Mineral Separator", image: "https://placehold.co/160x100/ADD8E6/000000?text=Mineral+Separator", link: "#" },
+  // ],
+  // Other: [
+  //   { name: "General Sorting Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=General+Sorter", link: "#" },
+  // ],
+    Pulses: [
+    { name: "Drum Sieve", image: "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg", link: "#" },
+    { name: "Grain Pre Cleaner", image: "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg", link: "#" },
+    { name: "Vibro Classifier",image:"https://graintecindustries.com/wp-content/uploads/2025/01/GVCA-212-9000_00-01-768x489.jpg", link: "#" },
+    {name: "De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2025/03/SLP08733-768x768.jpg", link: "#" },
+    {name: "Vibro De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png", link:"#"},
+    {name: "Mud Ball Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg", link:"#"},
+    {name: "Gravity Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg", link:"#"},
+  {
+    name: "Pulse De Huller",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
+  },
+  {
+    name: "Vibro Aspirator",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/01/Vibro_Aspirator_02-removebg-preview.png", // Placeholder image
+  },
+  {
+    name: "Fatka Splitter",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/04/Fatka-02-768x758.jpg", // Placeholder image
+  },
+  {
+    name: "Pulse De Huller",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
+  },
+  {
+    name: "Chakki Splitter",
+    image:"http://graintecindustries.com/wp-content/uploads/2025/04/CHAKKI-03-768x987.jpg", // Placeholder image
+  },
+  {
+    name: "Dal Buff Polisher",
+    image:"https://graintecindustries.com/wp-content/uploads/2025/04/Buff_Polisher-07-768x779.jpg", // Placeholder image
+  },
+  ],
+};
+
+
+// Aggregate all sorting images for the "All Machines" tab
+const allSortingMachines = [];
+for (const categoryKey in data) {
+  if (data.hasOwnProperty(categoryKey) && data[categoryKey].sorting) {
+    data[categoryKey].sorting.forEach(item => {
+      allSortingMachines.push({ label: item.label, img: item.img });
+    });
+  }
+}
+
+// Aggregate all machine images for the "All Machines" tab in the machineData section
+const allProcessingMachines = [];
+for (const categoryKey in machineData) {
+  if (machineData.hasOwnProperty(categoryKey)) {
+    machineData[categoryKey].forEach(item => {
+      allProcessingMachines.push({ name: item.name, image: item.image, link: item.link });
+    });
+  }
+}
+
+
+// Define tabs, starting with "All Machines"
+const initialTabs = Object.keys(data);
+const tabs = ["All Machines", ...initialTabs];
 
 export default function PlanPage() {
-  const [active, setActive] = useState("Rice");
+  const [active, setActive] = useState("All Machines"); // Initial state is "All Machines"
+
+  // Determine which machine images to display
+  const machinesToDisplay = active === "All Machines" ? allProcessingMachines : machineData[active] || [];
+  // Determine which sorting images to display
+  const sortingToDisplay = active === "All Machines" ? allSortingMachines : data[active]?.sorting || [];
+
 
   return (
     <div>
@@ -914,24 +1077,44 @@ export default function PlanPage() {
           ))}
         </div>
 
-        <div className="md: relative -top-10">
-          <RicePaddyProcessingPage />
-        </div> 
+        {/* Machine Images Section */}
+        <div className="mb-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
+            <span className="text-[#8E54FF]">Processing Machines</span>
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            {machinesToDisplay.map((machine, i) => (
+              <div
+                key={i}
+                className="bg-white p-3 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.03] transition-transform text-center"
+              >
+                <img
+                  src={machine.image || "https://placehold.co/160x100?text=No+Image"}
+                  alt={machine.name}
+                  className="rounded-md mx-auto h-[250px] w-[250px] object-cover"
+                />
+                <p className="mt-2 text-sm font-medium text-gray-700">
+                  {machine.name}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
 
         {/* Sorting Section */}
-        {data[active]?.sorting && (
+        {sortingToDisplay.length > 0 && (
           <>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
               <span className="text-[#8E54FF]">Sorting Solutions</span>
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
-              {data[active].sorting.map((item, i) => (
+              {sortingToDisplay.map((item, i) => (
                 <div
                   key={i}
                   className="bg-white p-3 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.03] transition-transform text-center"
                 >
                   <img
-                    src={item.img}
+                    src={item.img || "https://placehold.co/160x100?text=No+Image"} // Fallback for empty image URLs
                     alt={item.label}
                     className="rounded-md mx-auto h-[100px] w-[160px] object-cover"
                   />
@@ -945,9 +1128,9 @@ export default function PlanPage() {
         )}
 
 
-        {/* Flow Chart */}
-        {data[active]?.flow && (
-          <div className="mb-12">
+        {/* Flow Chart - Only show if a specific category is selected (not "All Machines") */}
+        {active !== "All Machines" && data[active]?.flow && (
+          <div className="mb-12 mt-12"> {/* Added mt-12 for spacing */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
               <span className="text-[#8E54FF]">Flow Chart</span>
             </h2>
