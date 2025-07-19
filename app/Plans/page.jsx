@@ -126,23 +126,23 @@ const data = {
     ],
     sorting: [
       {
-        label: "oily_cashew",
+        label: "oily cashew",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929865/oily_cashew_mrsigf.webp",
       },
       {
-        label: "Good_cahsew",
+        label: "Good cahsew",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/Good_cahsew_futqb0.webp",
       },
       {
-        label: "dark_cashew",
+        label: "dark cashew",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/dark_cashew_wsxxi8.webp",
       },
       {
-        label: "Bad_cahsew",
+        label: "Bad cahsew",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/Bad_cahsew_rmys4d.webp",
       },
       {
-        label: "broken_cashew",
+        label: "broken cashew",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/broken_cashew_a4tdvs.webp",
       },
     ],
@@ -592,23 +592,23 @@ const data = {
     ],
     sorting: [
       {
-        label: "Raagi_bad_broken",
+        label: "Raagi broken",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/raagi_bad_broken_vvwbkf.jpg",
       },
       {
-        label: "Ragi",
+        label: " Bad Ragi",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/ragi1_ub9rf8.jpg",
       },
       {
-        label: "Ragi",
+        label: "mixed Ragi",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/ragi2_qbhjzw.jpg",
       },
       {
-        label: "Ragi",
+        label: "good Ragi",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/ragi_bad_ubbcgi.jpg",
       },
       {
-        label: "Ragi",
+        label: "moudly Ragi",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938497/ragi3_yb976y.webp",
       },
     ],
@@ -909,13 +909,13 @@ const machineData = {
     { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Plastic: [
-    { name: "HDPE PP Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg", link: "#" },
+    { name: "HDPE Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg", link: "#" },
     { name: "Cutting machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.35_PM_pxjvkq.jpg", link: "#" },
     { name: "Washing line", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.48_PM_jublp4.jpg", link: "#" },
     { name: "Plastic PET Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.00_PM_viftht.jpg", link: "#" },
-    { name: "PP PE Film Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.09_PM_wgtydb.jpg", link: "#" },
-    { name: "PP PE Film Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.19_PM_r1yhvn.jpg", link: "#" },
-    { name: "HDPE PP Rigid Plastic Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg", link: "#" },
+    { name: "Film Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.09_PM_wgtydb.jpg", link: "#" },
+    { name: "Film Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.19_PM_r1yhvn.jpg", link: "#" },
+    { name: "HDPE Rigid Plastic Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg", link: "#" },
     { name: "Plastic Shredder Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.37_PM_q2r6r8.jpg", link: "#" },
     { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
