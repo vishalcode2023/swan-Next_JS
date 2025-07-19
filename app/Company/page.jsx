@@ -128,43 +128,55 @@ const Page = () => {
       </section>
 
       {/* Key Features */}
-      <section className="p-10">
-        <h2 className="text-center text-3xl font-bold text-blue-700 mb-6">
+      <section className="p-10 ">
+        <h2 className="text-center text-3xl font-extrabold text-blue-800 mb-8 drop-shadow-md">
           Key Features of SwanSorter Systems
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[
             {
               feature: "RGB CCD Camera Technology",
-              icon: <FaCamera className="text-blue-500 text-3xl" />,
+              icon: (
+                <FaCamera className="text-blue-500 text-3xl drop-shadow-sm" />
+              ),
             },
             {
               feature: "Proprietary FPGA-Based Image Processing",
-              icon: <FaMicrochip className="text-green-500 text-3xl" />,
+              icon: (
+                <FaMicrochip className="text-green-500 text-3xl drop-shadow-sm" />
+              ),
             },
             {
               feature: "Double-Sided Viewing System",
-              icon: <FaEye className="text-yellow-500 text-3xl" />,
+              icon: (
+                <FaEye className="text-yellow-500 text-3xl drop-shadow-sm" />
+              ),
             },
             {
               feature: "High-Power LED Illumination",
-              icon: <FaBolt className="text-purple-500 text-3xl" />,
+              icon: (
+                <FaBolt className="text-purple-500 text-3xl drop-shadow-sm" />
+              ),
             },
             {
               feature: "Smart Ejector Technology",
-              icon: <FaCogs className="text-orange-500 text-3xl" />,
+              icon: (
+                <FaCogs className="text-orange-500 text-3xl drop-shadow-sm" />
+              ),
             },
             {
               feature: "Simultaneous Sorting Capability",
-              icon: <FaSort className="text-red-500 text-3xl" />,
+              icon: <FaSort className="text-red-500 text-3xl drop-shadow-sm" />,
             },
           ].map((item, index) => (
             <div
               key={index}
-              className="p-6 bg-white rounded-lg shadow-md flex flex-col items-center text-center hover:shadow-lg transition-all"
+              className="p-6 bg-white border border-gray-200 rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               {item.icon}
-              <p className="text-sm text-gray-700 mt-3">{item.feature}</p>
+              <p className="text-base font-medium text-gray-800 mt-3">
+                {item.feature}
+              </p>
             </div>
           ))}
         </div>
