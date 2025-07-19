@@ -78,7 +78,7 @@ const Page = () => {
 
       {/* Values */}
       <section className="p-10">
-        <h2 className="text-center text-2xl font-semibold text-blue-700 mb-6">
+        <h2 className="text-center text-2xl  font-semibold text-blue-700 mb-6">
           Our Commitment & Values
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
@@ -129,7 +129,7 @@ const Page = () => {
 
       {/* Key Features */}
       <section className="p-10">
-        <h2 className="text-center text-2xl font-semibold text-blue-700 mb-6">
+        <h2 className="text-center text-3xl font-bold text-blue-700 mb-6">
           Key Features of SwanSorter Systems
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
