@@ -106,11 +106,11 @@ const data = {
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938040/damaged_ewuqem.jpg",
       },
       {
-        label: "pluses_good",
+        label: "pluses good",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938041/pluses_good_hblknb.jpg",
       },
       {
-        label: "defects_pulses",
+        label: "defects pulses",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938041/defects_pulses_gurznx.jpg",
       },
       {
@@ -153,23 +153,23 @@ const data = {
     ],
     sorting: [
       {
-        label: "mouldy_groundnut",
+        label: "mouldy groundnut",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937399/mouldy_groundnut_fwvdu7.jpg",
       },
       {
-        label:"broken_groundnut",
+        label:"broken groundnut",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937399/broken_groundnut_nbkvc9.webp",
       },
       {
-        label: "alltype_sorting",
+        label: "alltype sorting",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937400/alltype_sorting_add_last_ogsnvf.png",
       },
       {
-        label: "good_groundnut",
+        label: "good groundnut",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937400/good_groundnut_lx1cax.jpg",
       },
       {
-        label: "defective_groundnut",
+        label: "defective groundnut",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937400/defective_groundnut_cochtz.jpg",
       },
     ],
@@ -261,7 +261,7 @@ const data = {
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/garlic_3_spccgh.jpg",
       },
       {
-        label: "mould_garlic",
+        label: "mould garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/mould_garlic_bkdub6.webp",
       },
     ],
