@@ -95,90 +95,291 @@ const data = {
       },
     ],
   },
-  Beans: {
+
+    Pulses: {
     flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217671/beans2_u1pjat.png",
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Good Soybeans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516730239820492801.webp",
+        label: "damaged Quartz",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938040/damaged_ewuqem.jpg",
       },
       {
-        label: "Wormhole",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516730753454960641.webp",
+        label: "pluses_good",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938041/pluses_good_hblknb.jpg",
       },
       {
-        label: "Mouldy",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516730797025390593.webp",
+        label: "defects_pulses",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938041/defects_pulses_gurznx.jpg",
       },
       {
-        label: "Shriveled",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516730828294623234.webp",
-      },
-      {
-        label: "Broken valve",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516730858899763201.webp",
-      },
-      {
-        label: "Wrinkled",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516730891255320577.webp",
-      },
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516732943083671554.webp",
-      },
-      {
-        label: "Heterochromatic",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516734981766377474.webp",
-      },
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516734730301075457.webp",
-      },
-      {
-        label: "Heterochromatic",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516734767282950146.webp",
-      },
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736802497662978.webp",
-      },
-
-      {
-        label: "Heterochromatic",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736889168064513.webp",
-      },
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736888472506369.webp",
-      },
-      {
-        label: "Heterochromatic",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736802266279937.webp",
-      },
-      {
-        label: "Heterochromatic",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736802266279937.webp",
-      },
-      {
-        label: "Metal",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736559718764546.webp",
-      },
-      {
-        label: "Stone",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736559592239107.webp",
-      },
-      {
-        label: "Grass",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736559718764545.webp",
-      },
-      {
-        label: "Rod",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/1516736559592239106.webp",
+        label: "unpolished Pulses",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938041/unpolished__xyvbrk.jpg",
       },
     ],
   },
+
+    Cashew: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+    ],
+    sorting: [
+      {
+        label: "oily_cashew",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929865/oily_cashew_mrsigf.webp",
+      },
+      {
+        label: "Good_cahsew",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/Good_cahsew_futqb0.webp",
+      },
+      {
+        label: "dark_cashew",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/dark_cashew_wsxxi8.webp",
+      },
+      {
+        label: "Bad_cahsew",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/Bad_cahsew_rmys4d.webp",
+      },
+      {
+        label: "broken_cashew",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/broken_cashew_a4tdvs.webp",
+      },
+    ],
+  },
+  GroundNut: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752507901/WhatsApp_Image_2025-07-14_at_5.27.09_PM_zxgn3j.jpg",
+    ],
+    sorting: [
+      {
+        label: "mouldy_groundnut",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937399/mouldy_groundnut_fwvdu7.jpg",
+      },
+      {
+        label:"broken_groundnut",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937399/broken_groundnut_nbkvc9.webp",
+      },
+      {
+        label: "alltype_sorting",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937400/alltype_sorting_add_last_ogsnvf.png",
+      },
+      {
+        label: "good_groundnut",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937400/good_groundnut_lx1cax.jpg",
+      },
+      {
+        label: "defective_groundnut",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937400/defective_groundnut_cochtz.jpg",
+      },
+    ],
+  },
+
+    "Coffee Beans": {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217865/coffeesorting_rgaz1u.png",
+    ],
+    sorting: [
+      {
+        label: "Good Beans",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/72198ac86523ccc0bb6c2bc2e75f959.png",
+      },
+      {
+        label: "Wormhole",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/52a39879b857c18d2f36a4d9157565a.png",
+      },
+      {
+        label: "Shrinkled",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/e723c099a2d24214210e67103ee5c5c.png",
+      },
+      {
+        label: "Mouldy",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/e37b828a4abbdf1a8b50b336bc0d232.png",
+      },
+      {
+        label: "Heterochromatic",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/60218f1ed7bcc3f872e52b7a7a6514d-1.png",
+      },
+      {
+        label: "Good Beans",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/41ff78e1374d9338a5a2f2ef23fecdc.png",
+      },
+      {
+        label: "Wormhole",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/ee80dc2dd9613a3f112bbb668b0492e.png",
+      },
+      {
+        label: "Light-colored",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/21e277c4b579e6839083fb642b57c8a.png",
+      },
+      {
+        label: "Empty Walnut Nuts",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/402125ab696af7d6e3a897b1ca20644.png",
+      },
+      {
+        label: "Empty Almond Nuts",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/3d58a4fc96228fa17c453b9cb5d717d.png",
+      },
+      {
+        label: "Empty Macadamia Nuts",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/643b541daeb5ac049572968289e0f4d.png",
+      },
+    ],
+  },
+
+   Garlic: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+    ],
+    sorting: [
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic_1_kdgnc5.jpg",
+      },
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic__pqw9hd.jpg",
+      },
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic_4_fgnjif.webp",
+      },
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/garlic_5_lnokql.webp",
+      },
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic_4_fgnjif.webp",
+      },
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/good_garlic_ums1by.webp",
+      },
+      {
+        label: "garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/garlic_3_spccgh.jpg",
+      },
+      {
+        label: "mould_garlic",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/mould_garlic_bkdub6.webp",
+      },
+    ],
+  },
+
+    Plastic: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png",
+    ],
+    sorting: [
+      {
+        label: "Good ABS",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/704e9d00196a1f70376787047ad2436.png",
+      },
+      {
+        label: "ABS Defective",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/f0ddbd4cf419dc389e70bcef29bc660.png",
+      },
+      {
+        label: "Good PP",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/7a3e7b549c812eb721b12678c4cdfdd.png",
+      },
+      {
+        label: "Pp Defective",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/13ace808a3cf9c903378b76ce148e53.png",
+      },
+      {
+        label: "Good PET",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/c7126d053ba82cb0f0c2a357a160add.png",
+      },
+      {
+        label: "PET Defective",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/691c18ac1d39b20f54ba1aa058ed180.png",
+      },
+      {
+        label: "Good Beans",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/415960846ffce4f14153e9ab80f8e69.png",
+      },
+      {
+        label: "Red",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/21273d2d1023c996e6ae537c0d90730.png",
+      },
+      {
+        label: "Yellow",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/5e013848071dacd1a953febe8966409.png",
+      },
+      {
+        label: "Blue",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/90fe2e65c260dfdffb049ec3247f3ab.png",
+      },
+      {
+        label: "Green",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/ea161ead7963a33e4342f5d60c48a97.png",
+      },
+      {
+        label: "Gray",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/bf26dc1708ab007e848da124cec0432.png",
+      },
+      {
+        label: "Black",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/f4dc281d86c0d36b9e816a6bc29c02a.png",
+      },
+      {
+        label: "PP",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/30d77deade81e1b8ef29b6b2d3923b1.png",
+      },
+      {
+        label: "PET",
+        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/5019fc816b0442d0a47d1c9c817a274.png",
+      },
+    ],
+  },
+
+    Millets: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+    ],
+    sorting: [
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet2_xvlktg.webp",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet4_mnsz4w.avif",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet6_kln18u.jpg",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet7_o9nu1q.webp",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet9_okwkue.webp",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millt3_tsezfg.jpg",
+      },
+       {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet10_n2lfmt.webp",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet1_fnc64a.webp",
+      },
+      {
+        label: "Millets",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937654/millt5_gsjpqj.jpg",
+      },
+    ],
+  },
+
+
   Nut: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217733/nutsorting_pdwp4p.png",
@@ -304,124 +505,7 @@ const data = {
       },
     ],
   },
-  "Coffee Beans": {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217865/coffeesorting_rgaz1u.png",
-    ],
-    sorting: [
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/72198ac86523ccc0bb6c2bc2e75f959.png",
-      },
-      {
-        label: "Wormhole",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/52a39879b857c18d2f36a4d9157565a.png",
-      },
-      {
-        label: "Shrinkled",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/e723c099a2d24214210e67103ee5c5c.png",
-      },
-      {
-        label: "Mouldy",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/e37b828a4abbdf1a8b50b336bc0d232.png",
-      },
-      {
-        label: "Heterochromatic",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/60218f1ed7bcc3f872e52b7a7a6514d-1.png",
-      },
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/41ff78e1374d9338a5a2f2ef23fecdc.png",
-      },
-      {
-        label: "Wormhole",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/ee80dc2dd9613a3f112bbb668b0492e.png",
-      },
-      {
-        label: "Light-colored",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/21e277c4b579e6839083fb642b57c8a.png",
-      },
-      {
-        label: "Empty Walnut Nuts",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/402125ab696af7d6e3a897b1ca20644.png",
-      },
-      {
-        label: "Empty Almond Nuts",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/3d58a4fc96228fa17c453b9cb5d717d.png",
-      },
-      {
-        label: "Empty Macadamia Nuts",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/643b541daeb5ac049572968289e0f4d.png",
-      },
-    ],
-  },
-  Plastic: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png",
-    ],
-    sorting: [
-      {
-        label: "Good ABS",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/704e9d00196a1f70376787047ad2436.png",
-      },
-      {
-        label: "ABS Defective",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/f0ddbd4cf419dc389e70bcef29bc660.png",
-      },
-      {
-        label: "Good PP",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/7a3e7b549c812eb721b12678c4cdfdd.png",
-      },
-      {
-        label: "Pp Defective",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/13ace808a3cf9c903378b76ce148e53.png",
-      },
-      {
-        label: "Good PET",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/c7126d053ba82cb0f0c2a357a160add.png",
-      },
-      {
-        label: "PET Defective",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/691c18ac1d39b20f54ba1aa058ed180.png",
-      },
-      {
-        label: "Good Beans",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/415960846ffce4f14153e9ab80f8e69.png",
-      },
-      {
-        label: "Red",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/21273d2d1023c996e6ae537c0d90730.png",
-      },
-      {
-        label: "Yellow",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/5e013848071dacd1a953febe8966409.png",
-      },
-      {
-        label: "Blue",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/90fe2e65c260dfdffb049ec3247f3ab.png",
-      },
-      {
-        label: "Green",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/ea161ead7963a33e4342f5d60c48a97.png",
-      },
-      {
-        label: "Gray",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/bf26dc1708ab007e848da124cec0432.png",
-      },
-      {
-        label: "Black",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/f4dc281d86c0d36b9e816a6bc29c02a.png",
-      },
-      {
-        label: "PP",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/30d77deade81e1b8ef29b6b2d3923b1.png",
-      },
-      {
-        label: "PET",
-        img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/5019fc816b0442d0a47d1c9c817a274.png",
-      },
-    ],
-  },
+
   Seed: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png",
@@ -461,274 +545,133 @@ const data = {
       },
     ],
   },
-  Cashew: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Raw Cashew",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Raw+Cashew",
-      },
-      {
-        label: "Whole Cashew",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Whole+Cashew",
-      },
-      {
-        label: "Broken Cashew",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Cashew",
-      },
-      {
-        label: "Scorched Cashew",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Scorched+Cashew",
-      },
-      {
-        label: "Dark Spot",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Dark+Spot",
-      },
-      {
-        label: "Foreign Matter",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
-      },
-    ],
-  },
-  GroundNut: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752507901/WhatsApp_Image_2025-07-14_at_5.27.09_PM_zxgn3j.jpg",
-    ],
-    sorting: [
-      {
-        label: "Good Groundnut",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Groundnut",
-      },
-      {
-        label: "Broken Groundnut",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Groundnut",
-      },
-      {
-        label: "Discolored",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored",
-      },
-      {
-        label: "Foreign Material",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Material",
-      },
-      {
-        label: "Shriveled",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Shriveled",
-      },
-      {
-        label: "Mouldy",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Mouldy",
-      },
-    ],
-  },
-  RagiPlant: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Good Ragi",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Ragi",
-      },
-      {
-        label: "Immature Ragi",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Immature+Ragi",
-      },
-      {
-        label: "Broken Ragi",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Ragi",
-      },
-      {
-        label: "Foreign Matter",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
-      },
-    ],
-  },
-  Wheat: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Good Wheat",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Wheat",
-      },
-      {
-        label: "Shriveled Wheat",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Shriveled+Wheat",
-      },
-      {
-        label: "Broken Wheat",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Wheat",
-      },
-      {
-        label: "Discolored Wheat",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Wheat",
-      },
-      {
-        label: "Foreign Matter",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
-      },
-    ],
-  },
+
   FriedGram: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
-      {
-        label: "Good Fried Gram",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Fried+Gram",
-      },
-      {
-        label: "Broken Fried Gram",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Fried+Gram",
-      },
-      {
-        label: "Discolored",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored",
-      },
-      {
-        label: "Foreign Matter",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
-      },
+    { label: "Roasted-Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935811/Roasted-Gram-1_cyx2wd.png"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr22_ijgoc1.jpg"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gre_d5tsl2.webp"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr33_q7cymc.jpg"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fdd_1_fcikls.jpg"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fried_gr1_s4yeee.webp"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/gr3_kynpzj.webp"},
+    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/bad_gr1_hof9r7.jpg"},
     ],
   },
-  Raisin: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Good Raisin",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Raisin",
-      },
-      {
-        label: "Stem",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Stem",
-      },
-      {
-        label: "Capstem",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Capstem",
-      },
-      {
-        label: "Light Berry",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Light+Berry",
-      },
-      {
-        label: "Damaged",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Damaged",
-      },
-      {
-        label: "Foreign Matter",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
-      },
-    ],
-  },
-  Millets: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Good Raisin",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Raisin",
-      },
-      {
-        label: "Stem",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Stem",
-      },
-      {
-        label: "Capstem",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Capstem",
-      },
-      {
-        label: "Light Berry",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Light+Berry",
-      },
-      {
-        label: "Damaged",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Damaged",
-      },
-      {
-        label: "Foreign Matter",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
-      },
-    ],
-  },
+
   Quartz_and_Minerals: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
+        label: " Quartz",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938284/quartz3_a482lm.webp",
+      },
+      {
         label: "Good Quartz",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Quartz",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938284/good_quartz_bhifuc.jpg",
       },
       {
-        label: "Discolored Quartz",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Quartz",
+        label: "Quartz ",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938283/q2_xpdoe9.jpg",
       },
       {
-        label: "Impurity",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Impurity",
-      },
-      {
-        label: "Other Minerals",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Other+Minerals",
+        label: "Defective_Quartz",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938283/broken_crytals_viry0k.jpg",
       },
     ],
   },
 
-  Garlic: {
+  RagiPlant: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Good Quartz",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Quartz",
+        label: "Raagi_bad_broken",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/raagi_bad_broken_vvwbkf.jpg",
       },
       {
-        label: "Discolored Quartz",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Quartz",
+        label: "Ragi",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/ragi1_ub9rf8.jpg",
       },
       {
-        label: "Impurity",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Impurity",
+        label: "Ragi",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/ragi2_qbhjzw.jpg",
       },
       {
-        label: "Other Minerals",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Other+Minerals",
+        label: "Ragi",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/ragi_bad_ubbcgi.jpg",
+      },
+      {
+        label: "Ragi",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938497/ragi3_yb976y.webp",
       },
     ],
   },
+  // Wheat: {
+  //   flow: [
+  //     "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+  //   ],
+  //   sorting: [
+  //     {
+  //       label: "Good Wheat",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Wheat",
+  //     },
+  //     {
+  //       label: "Shriveled Wheat",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Shriveled+Wheat",
+  //     },
+  //     {
+  //       label: "Broken Wheat",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Broken+Wheat",
+  //     },
+  //     {
+  //       label: "Discolored Wheat",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Wheat",
+  //     },
+  //     {
+  //       label: "Foreign Matter",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
+  //     },
+  //   ],
+  // },
 
-  Pulses: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Good Quartz",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Quartz",
-      },
-      {
-        label: "Discolored Quartz",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Discolored+Quartz",
-      },
-      {
-        label: "Impurity",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Impurity",
-      },
-      {
-        label: "Other Minerals",
-        img: "https://placehold.co/160x100/ADD8E6/000000?text=Other+Minerals",
-      },
-    ],
-  },
+  // Raisin: {
+  //   flow: [
+  //     "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+  //   ],
+  //   sorting: [
+  //     {
+  //       label: "Good Raisin",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Good+Raisin",
+  //     },
+  //     {
+  //       label: "Stem",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Stem",
+  //     },
+  //     {
+  //       label: "Capstem",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Capstem",
+  //     },
+  //     {
+  //       label: "Light Berry",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Light+Berry",
+  //     },
+  //     {
+  //       label: "Damaged",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Damaged",
+  //     },
+  //     {
+  //       label: "Foreign Matter",
+  //       img: "https://placehold.co/160x100/ADD8E6/000000?text=Foreign+Matter",
+  //     },
+  //   ],
+  // },
 
 
   Other: {
@@ -949,11 +892,21 @@ const machineData = {
     { name: "Bean Processing Machine 2", image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+2", link: "#" },
   ],
   Nut: [
-    { name: "Nut Shelling Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=Nut+Shelling", link: "#" },
-    { name: "Nut Roasting Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=Nut+Roasting", link: "#" },
+    {
+      name: "Sorting Machine",
+      image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+      link: "#",
+    },
   ],
   "Coffee Beans": [
+    { name: "Pre cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.41.21_PM_rx7ptn.jpg", link: "#" },
+    { name: "Bullet and osilator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.41.32_PM_zypfyg.jpg", link: "#" },
+    { name: "Huller and osilator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.42.05_PM_jndagv.jpg", link: "#" },
+    { name: "Destoner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934548/WhatsApp_Image_2025-07-18_at_1.42.15_PM_q2u8fn.jpg", link: "#" },
+    { name: "Gravity block", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934545/WhatsApp_Image_2025-07-18_at_1.42.26_PM_mjqyol.jpg", link: "#" },
+    { name: "Grander", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934960/WhatsApp_Image_2025-07-18_at_1.42.37_PM_ornji9.jpg", link: "#" },
     { name: "Elevator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_5.24.04_PM_ji3heb.jpg", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Plastic: [
     { name: "HDPE PP Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg", link: "#" },
@@ -964,6 +917,7 @@ const machineData = {
     { name: "PP PE Film Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.19_PM_r1yhvn.jpg", link: "#" },
     { name: "HDPE PP Rigid Plastic Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg", link: "#" },
     { name: "Plastic Shredder Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.37_PM_q2r6r8.jpg", link: "#" },
+    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
   Seed: [
     { name: "Seed Pre Cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.51_AM_givflc.jpg", link: "#" },
@@ -976,14 +930,13 @@ const machineData = {
     { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
   Cashew: [
-   
+    { name: "Boiling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752933545/WhatsApp_Image_2025-07-18_at_10.22.29_AM_wox9w4.jpg", link: "#" },
     { name: "Cutting Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764005/WhatsApp_Image_2025-07-15_at_4.46.57_PM_ommosg.jpg", link: "#" },
     { name: "Scooping line", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764007/WhatsApp_Image_2025-07-15_at_4.47.37_PM_kdstrh.jpg", link: "#" },
     { name: "NW Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.47.46_PM_d16sgw.jpg", link: "#" },
     { name: "Hot house", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764007/WhatsApp_Image_2025-07-15_at_4.47.57_PM_fozmft.jpg", link: "#" },
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
-    { name: "Grading machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.48.30_PM_o9p9q7.jpg", link: "#" },
     { name: " Peeling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.48.09_PM_od9ye3.jpg", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   GroundNut: [
     { name: "Pre Cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.53_PM_ukvm4x.jpg", link: "#" },
@@ -995,8 +948,7 @@ const machineData = {
     { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
   RagiPlant: [
-    { name: "Ragi Thresher", image: "https://placehold.co/160x100/ADD8E6/000000?text=Ragi+Thresher", link: "#" },
-    { name: "Ragi Cleaner", image: "https://placehold.co/160x100/ADD8E6/000000?text=Ragi+Cleaner", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Wheat: [
     { name: "Drum Sieve", image: "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg", link: "#" },
@@ -1009,16 +961,13 @@ const machineData = {
     { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
   FriedGram: [
-    { name: "Gram Roaster", image: "https://placehold.co/160x100/ADD8E6/000000?text=Gram+Roaster", link: "#" },
-    { name: "Gram Splitter", image: "https://placehold.co/160x100/ADD8E6/000000?text=Gram+Splitter", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Raisin: [
-    { name: "Raisin Dryer", image: "https://placehold.co/160x100/ADD8E6/000000?text=Raisin+Dryer", link: "#" },
-    { name: "Raisin Sorter", image: "https://placehold.co/160x100/ADD8E6/000000?text=Raisin+Sorter", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Quartz_and_Minerals: [
-    { name: "Quartz Crusher", image: "https://placehold.co/160x100/ADD8E6/000000?text=Quartz+Crusher", link: "#" },
-    { name: "Mineral Separator", image: "https://placehold.co/160x100/ADD8E6/000000?text=Mineral+Separator", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
 
    Pulses: [
@@ -1029,6 +978,7 @@ const machineData = {
     {name: "Vibro De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png", link:"#"},
     {name: "Mud Ball Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg", link:"#"},
     {name: "Gravity Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg", link:"#"},
+    
   {
     name: "Pulse De Huller",
     image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
@@ -1060,7 +1010,7 @@ const machineData = {
     { name: "Bulb breaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_5.27.37_PM_qdc0rk.jpg", link: "#" },
     { name: "Peeling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.45_PM_froxnx.jpg", link: "#" },
     { name: "Garlic washing machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.53_PM_qe0fat.jpg", link: "#" },
-    { name: "Swan 900 MM belt type machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.28.04_PM_bdmhmt.jpg", link: "#" },    
+    { name: "Swan 300 belt type", image: "/img1.jpeg", link: "#" },    
 
   ],
   Millets: [
@@ -1069,10 +1019,11 @@ const machineData = {
     { name: "Dehuller", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_ukpoqa.jpg", link: "#" },
     { name: "Gravity separator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_1_hdnbav.jpg", link: "#" },
     { name: "Elevator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_2_wahvxq.jpg", link: "#" },
+    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
 
     Other: [
-    { name: "General Sorting Machine", image: "https://placehold.co/160x100/ADD8E6/000000?text=General+Sorter", link: "#" },
+    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
 };
 
@@ -1116,7 +1067,7 @@ export default function PlanPage() {
       <div className="px-4 md:px-16 py-12 bg-white text-center min-h-screen">
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-4 tracking-tight">
-          Complete End To End Sorting Plan
+          Complete End To End Sorting plant
         </h1>
         <p className="text-gray-600 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
           Our customizable systems are designed to maximize productivity while
@@ -1196,8 +1147,8 @@ export default function PlanPage() {
 
 
         {/* Flow Chart - Only show if a specific category is selected (not "All Machines") */}
-        {active && data[active]?.flow && ( // Check if active is not null/undefined
-          <div className="mb-12 mt-12"> {/* Added mt-12 for spacing */}
+        {/* {active && data[active]?.flow && ( 
+          <div className="mb-12 mt-12"> 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
               <span className="text-[#8E54FF]">Flow Chart</span>
             </h2>
@@ -1212,7 +1163,7 @@ export default function PlanPage() {
               ))}
             </div>
           </div>
-        )}
+        )} */}
       </div>
       <ContactSidebar />
       <ChatBot />
