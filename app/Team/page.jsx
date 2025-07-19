@@ -37,7 +37,7 @@ const team = [
 
   {
     name: "Alka",
-    role: "Customer Support Lead",
+    role: "Marketing Team lead",
     category: "Marketing",
     image: "/360_F_463667026_B6L8IGy2cgGYdYOkN8hBE55B1zpcVvDc.webp",
   },
