@@ -4,6 +4,7 @@ import Footerpage from "../Components/LandingPages/Footerpage";
 import Navbar from "../Components/NavbarLinks/Navbar";
 import ChatBot from "../Components/ChatBot/ChatBot";
 import AutoPopupChat from "../Components/LandingPages/AutoComponentspop";
+import { motion } from "framer-motion";
 import ContactSidebar from "../Components/LandingPages/ContactSidebar";
 
 // Data for different product categories, including flow charts and sorting examples
@@ -233,11 +234,11 @@ const data = {
     ],
     sorting: [
       {
-        label: "garlic",
+        label: "peeled garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic_1_kdgnc5.jpg",
       },
       {
-        label: "garlic",
+        label: "mouldy garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic__pqw9hd.jpg",
       },
       {
@@ -249,15 +250,15 @@ const data = {
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/garlic_5_lnokql.webp",
       },
       {
-        label: "garlic",
+        label: "Bad garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic_4_fgnjif.webp",
       },
       {
-        label: "garlic",
+        label: "Good garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/good_garlic_ums1by.webp",
       },
       {
-        label: "garlic",
+        label: "peeled garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/garlic_3_spccgh.jpg",
       },
       {
@@ -335,49 +336,50 @@ const data = {
     ],
   },
 
-    Millets: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet2_xvlktg.webp",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet4_mnsz4w.avif",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet6_kln18u.jpg",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet7_o9nu1q.webp",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet9_okwkue.webp",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millt3_tsezfg.jpg",
-      },
-       {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet10_n2lfmt.webp",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet1_fnc64a.webp",
-      },
-      {
-        label: "Millets",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937654/millt5_gsjpqj.jpg",
-      },
-    ],
-  },
+Millets: {
+  flow: [
+    "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+  ],
+  sorting: [
+    {
+      label: "Foxtail Millet",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet2_xvlktg.webp",
+    },
+    {
+      label: "Finger Millet (Ragi)",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet4_mnsz4w.avif",
+    },
+    {
+      label: "Pearl Millet (Bajra)",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet6_kln18u.jpg",
+    },
+    {
+      label: "Little Millet",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet7_o9nu1q.webp",
+    },
+    {
+      label: "Barnyard Millet",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet9_okwkue.webp",
+    },
+    {
+      label: "Kodo Millet",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millt3_tsezfg.jpg",
+    },
+    {
+      label: "Proso Millet",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet10_n2lfmt.webp",
+    },
+    {
+      label: "Brown Top Millet",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet1_fnc64a.webp",
+    },
+    {
+      label: "Sorghum (Jowar)",
+      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937654/millt5_gsjpqj.jpg",
+    },
+  ],
+},
+
 
 
   Nut: {
@@ -546,21 +548,22 @@ const data = {
     ],
   },
 
-  FriedGram: {
-    flow: [
-      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-    ],
-    sorting: [
-    { label: "Roasted-Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935811/Roasted-Gram-1_cyx2wd.png"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr22_ijgoc1.jpg"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gre_d5tsl2.webp"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr33_q7cymc.jpg"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fdd_1_fcikls.jpg"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fried_gr1_s4yeee.webp"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/gr3_kynpzj.webp"},
-    { label: "", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/bad_gr1_hof9r7.jpg"},
-    ],
-  },
+ FriedGram: {
+  flow: [
+    "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+  ],
+  sorting: [
+    { label: "Roasted Gram Whole", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935811/Roasted-Gram-1_cyx2wd.png" },
+    { label: "Roasted Gram Split", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr22_ijgoc1.jpg" },
+    { label: "Roasted Gram without Skin", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gre_d5tsl2.webp" },
+    { label: "Fried Gram (Chana Dal)", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr33_q7cymc.jpg" },
+    { label: "Premium Roasted Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fdd_1_fcikls.jpg" },
+    { label: "Desi Fried Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fried_gr1_s4yeee.webp" },
+    { label: "Crispy Roasted Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/gr3_kynpzj.webp" },
+    { label: "Roasted Gram with Skin", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/bad_gr1_hof9r7.jpg" },
+  ],
+},
+
 
   Quartz_and_Minerals: {
     flow: [
@@ -1027,30 +1030,48 @@ const machineData = {
   ],
 };
 
-
-// Aggregate all sorting images for the "All Machines" tab - NOT USED IF "All Machines" TAB IS REMOVED
-// const allSortingMachines = [];
-// for (const categoryKey in data) {
-//   if (data.hasOwnProperty(categoryKey) && data[categoryKey].sorting) {
-//     data[categoryKey].sorting.forEach(item => {
-//       allSortingMachines.push({ label: item.label, img: item.img });
-//     });
-//   }
-// }
-
-// Aggregate all machine images for the "All Machines" tab in the machineData section - NOT USED IF "All Machines" TAB IS REMOVED
-// const allProcessingMachines = [];
-// for (const categoryKey in machineData) {
-//   if (machineData.hasOwnProperty(categoryKey)) {
-//     machineData[categoryKey].forEach(item => {
-//       allProcessingMachines.push({ name: item.name, image: item.image, link: item.link });
-//     });
-//   }
-// }
-
-
 // Define tabs, starting with "Rice" as the first category
 const tabs = Object.keys(data);
+
+// Variants for animations
+const containerVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      staggerChildren: 0.1, // Stagger children by 0.1 seconds
+      when: "beforeChildren", // Animate parent before children
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  },
+};
+
+const imageItemVariants = {
+  hidden: { y: 30, opacity: 0, scale: 0.9 }, // Start slightly lower, faded, and smaller
+  visible: {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    transition: {
+      type: "spring",
+      stiffness: 120, // Slightly less stiff for a smoother feel
+      damping: 15,    // More damping for less bounce
+      duration: 0.6,  // Explicit duration for overall animation
+    },
+  },
+};
 
 export default function PlanPage() {
   const [active, setActive] = useState(tabs[0]); // Initial state is the first category (e.g., "Rice")
@@ -1066,22 +1087,40 @@ export default function PlanPage() {
       <Navbar />
       <div className="px-4 md:px-16 py-12 bg-white text-center min-h-screen">
         {/* Title */}
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-4 tracking-tight">
-          Complete End To End Sorting plant
-        </h1>
-        <p className="text-gray-600 max-w-3xl mx-auto mb-10 text-lg leading-relaxed">
+        <motion.h1
+          className="text-4xl md:text-5xl font-bold text-gray-700 mb-4 tracking-tight"
+          initial="hidden"
+          whileInView="visible" // Animate when in view
+          viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% in view
+          variants={itemVariants}
+        >
+          Complete End To End Sorting Plant
+        </motion.h1>
+        <motion.p
+          className="text-gray-600 max-w-3xl mx-auto mb-10 text-lg leading-relaxed"
+          initial="hidden"
+          whileInView="visible" // Animate when in view
+          viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% in view
+          variants={itemVariants}
+        >
           Our customizable systems are designed to maximize productivity while
           maintaining the integrity and appearance of your produce. With a focus
           on energy efficiency and sustainability, SwanSorter system offers reliable and
           innovative solutions tailored to meet the unique needs of your
           processing facility. Partner with us to enhance your operations and
           achieve the highest quality output.
-        </p>
+        </motion.p>
 
         {/* Tabs */}
-        <div className="flex flex-wrap justify-center gap-3 sm:gap-5 mb-12">
+        <motion.div
+          className="flex flex-wrap justify-center gap-3 sm:gap-5 mb-12"
+          initial="hidden"
+          whileInView="visible" // Animate when in view
+          viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% in view
+          variants={containerVariants}
+        >
           {tabs.map((tab) => (
-            <button
+            <motion.button
               key={tab}
               onClick={() => setActive(tab)}
               className={`px-5 py-2 rounded-full border transition-all duration-300 text-sm md:text-base font-medium ${
@@ -1089,22 +1128,39 @@ export default function PlanPage() {
                   ? "bg-[#8E54FF] text-white shadow-lg"
                   : "bg-white text-gray-700 border-gray-300 hover:bg-[#8E54FF]/10 hover:text-[#8E54FF]"
               }`}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              variants={itemVariants}
             >
               {tab}
-            </button>
+            </motion.button>
           ))}
-        </div>
+        </motion.div>
 
         {/* Machine Images Section */}
         <div className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
+          <motion.h2
+            className="text-2xl md:text-3xl font-bold text-gray-700 mb-6"
+            initial="hidden"
+            whileInView="visible" // Animate when in view
+            viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% in view
+            variants={itemVariants}
+          >
             <span className="text-[#8E54FF]">Processing Machines</span>
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6">
+          </motion.h2>
+          <motion.div
+            className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6"
+            key={active + "-machines"} // Key change to re-trigger animation on tab change
+            initial="hidden"
+            whileInView="visible" // Animate when in view
+            viewport={{ once: true, amount: 0.1 }} // Animate when 10% in view for better mobile feel
+            variants={containerVariants}
+          >
             {machinesToDisplay.map((machine, i) => (
-              <div
+              <motion.div
                 key={i}
                 className="bg-white p-3 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.03] transition-transform text-center"
+                variants={imageItemVariants}
               >
                 <img
                   src={machine.image || "https://placehold.co/160x100?text=No+Image"}
@@ -1114,22 +1170,36 @@ export default function PlanPage() {
                 <p className="mt-2 text-sm font-medium text-gray-700">
                   {machine.name}
                 </p>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
 
         {/* Sorting Section */}
         {sortingToDisplay.length > 0 && (
           <>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
+            <motion.h2
+              className="text-2xl md:text-3xl font-bold text-gray-700 mb-6"
+              initial="hidden"
+              whileInView="visible" // Animate when in view
+              viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% in view
+              variants={itemVariants}
+            >
               <span className="text-[#8E54FF]">Sorting Solutions</span>
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            </motion.h2>
+            <motion.div
+              className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6"
+              key={active + "-sorting"} // Key change to re-trigger animation on tab change
+              initial="hidden"
+              whileInView="visible" // Animate when in view
+              viewport={{ once: true, amount: 0.1 }} // Animate when 10% in view for better mobile feel
+              variants={containerVariants}
+            >
               {sortingToDisplay.map((item, i) => (
-                <div
+                <motion.div
                   key={i}
                   className="bg-white p-3 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.03] transition-transform text-center"
+                  variants={imageItemVariants}
                 >
                   <img
                     src={item.img || "https://placehold.co/160x100?text=No+Image"} // Fallback for empty image URLs
@@ -1139,31 +1209,12 @@ export default function PlanPage() {
                   <p className="mt-2 text-sm font-medium text-gray-700">
                     {item.label}
                   </p>
-                </div>
+                </motion.div>
               ))}
-            </div>
+            </motion.div>
           </>
         )}
 
-
-        {/* Flow Chart - Only show if a specific category is selected (not "All Machines") */}
-        {/* {active && data[active]?.flow && ( 
-          <div className="mb-12 mt-12"> 
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
-              <span className="text-[#8E54FF]">Flow Chart</span>
-            </h2>
-            <div className="flex flex-wrap justify-center gap-6">
-              {data[active].flow.map((imgSrc, index) => (
-                <img
-                  key={index}
-                  src={imgSrc}
-                  alt={`flow-${index}`}
-                  className="w-[95%] md:w-[80%] h-auto rounded-2xl shadow-md hover:scale-[1.03] transition-transform duration-300"
-                />
-              ))}
-            </div>
-          </div>
-        )} */}
       </div>
       <ContactSidebar />
       <ChatBot />
