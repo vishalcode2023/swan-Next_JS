@@ -282,23 +282,23 @@ const data = {
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/f0ddbd4cf419dc389e70bcef29bc660.png",
       },
       {
-        label: "Good PP",
+        label: "Good Plastic",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/7a3e7b549c812eb721b12678c4cdfdd.png",
       },
       {
-        label: "Pp Defective",
+        label: "Plastic Defective",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/13ace808a3cf9c903378b76ce148e53.png",
       },
       {
-        label: "Good PET",
+        label: "Good Plastic",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/c7126d053ba82cb0f0c2a357a160add.png",
       },
       {
-        label: "PET Defective",
+        label: " Defective",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/691c18ac1d39b20f54ba1aa058ed180.png",
       },
       {
-        label: "Good Beans",
+        label: "Good ",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/415960846ffce4f14153e9ab80f8e69.png",
       },
       {
@@ -326,11 +326,11 @@ const data = {
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/f4dc281d86c0d36b9e816a6bc29c02a.png",
       },
       {
-        label: "PP",
+        label: "Good Plastic",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/30d77deade81e1b8ef29b6b2d3923b1.png",
       },
       {
-        label: "PET",
+        label: "Plastic Defective",
         img: "https://www.wesortcolorsorters.com/wp-content/uploads/2024/06/5019fc816b0442d0a47d1c9c817a274.png",
       },
     ],
@@ -589,13 +589,13 @@ Millets: {
     ],
   },
 
-  RagiPlant: {
+  Ragi: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
     sorting: [
       {
-        label: "Raagi broken",
+        label: "Ragi broken",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938496/raagi_bad_broken_vvwbkf.jpg",
       },
       {
