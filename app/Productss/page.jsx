@@ -17,7 +17,7 @@ const productData = {
       ],
       link: "/ColorSorters/Chute-type",
     },
-    "1 Chute Type 64 Channels MM/SS Frame": {
+    "1 Chute Type 64 Channels Frame": {
       images: [
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875732/64_Channel_NW_machine_zvbkoy.jpg",
       ],
@@ -33,7 +33,7 @@ const productData = {
       images: ["/img5.jpeg"],
       link: "/ColorSorters/Chute-type",
     },
-    "3 Chute Box 192 Channels": {
+    "3 Chute 192 Channels": {
       images: ["/img6.jpeg"],
       link: "/ColorSorters/Chute-type",
     },
