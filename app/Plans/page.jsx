@@ -127,24 +127,36 @@ const data = {
     ],
     sorting: [
       {
-        label: "oily cashew",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929865/oily_cashew_mrsigf.webp",
+        label: "W180",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_2.59.38_PM_ke73bp.jpg",
       },
       {
-        label: "Good cahsew",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/Good_cahsew_futqb0.webp",
+        label: "W210",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.00.13_PM_enyky6.jpg",
       },
       {
-        label: "dark cashew",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/dark_cashew_wsxxi8.webp",
+        label: "W220",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.08.13_PM_uk4edw.jpg",
       },
       {
-        label: "Bad cahsew",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/Bad_cahsew_rmys4d.webp",
+        label: "W320",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.08.23_PM_ppqaoi.jpg",
       },
       {
-        label: "broken cashew",
-        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752929864/broken_cashew_a4tdvs.webp",
+        label: "JH",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.08.43_PM_jxq1yo.jpg",
+      },
+      {
+        label: "JK",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.08.50_PM_osvlxx.jpg",
+      },
+      {
+        label: "LWP",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190616/WhatsApp_Image_2025-07-21_at_3.09.03_PM_l6rj1p.jpg",
+      },
+        {
+        label: "W450",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.09.12_PM_w4uwup.jpg",
       },
     ],
   },
@@ -912,13 +924,13 @@ const machineData = {
     { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Plastic: [
-    { name: "HDPE Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg", link: "#" },
+    { name: " Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg", link: "#" },
     { name: "Cutting machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.35_PM_pxjvkq.jpg", link: "#" },
     { name: "Washing line", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.48_PM_jublp4.jpg", link: "#" },
-    { name: "Plastic PET Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.00_PM_viftht.jpg", link: "#" },
+    { name: "Plastic  Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.00_PM_viftht.jpg", link: "#" },
     { name: "Film Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.09_PM_wgtydb.jpg", link: "#" },
     { name: "Film Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.19_PM_r1yhvn.jpg", link: "#" },
-    { name: "HDPE Rigid Plastic Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg", link: "#" },
+    { name: "Rigid Plastic Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg", link: "#" },
     { name: "Plastic Shredder Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.37_PM_q2r6r8.jpg", link: "#" },
     { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
   ],
@@ -952,6 +964,7 @@ const machineData = {
   ],
   RagiPlant: [
     { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+     { name: "Sorting Machine ", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg", link: "#" },    
   ],
   Wheat: [
     { name: "Drum Sieve", image: "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg", link: "#" },
@@ -965,12 +978,16 @@ const machineData = {
   ],
   FriedGram: [
     { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+    
   ],
   Raisin: [
     { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
   ],
   Quartz_and_Minerals: [
     { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+    { name: "300 belt machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg", link: "#" },
+    { name: "900 belt machine", image: "/img7.jpeg", link: "#" },
+
   ],
 
    Pulses: [
@@ -1013,9 +1030,15 @@ const machineData = {
     { name: "Bulb breaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_5.27.37_PM_qdc0rk.jpg", link: "#" },
     { name: "Peeling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.45_PM_froxnx.jpg", link: "#" },
     { name: "Garlic washing machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.53_PM_qe0fat.jpg", link: "#" },
-    { name: "Swan 300 belt type", image: "/img1.jpeg", link: "#" },    
+    { name: "Sorting Machine ", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg", link: "#" },    
 
   ],
+
+   Ragi: [
+    { name: "640 Channel 10 chute machine ", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg", link: "#" },
+  ],
+
+
   Millets: [
     { name: "Grader Cum Aspirator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.15_PM_uj2isw.jpg", link: "#" },
     { name: "Destoner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764833/WhatsApp_Image_2025-07-17_at_1.14.15_PM_1_tz94vx.jpg", link: "#" },
@@ -1165,7 +1188,7 @@ export default function PlanPage() {
                 <img
                   src={machine.image || "https://placehold.co/160x100?text=No+Image"}
                   alt={machine.name}
-                  className="rounded-md mx-auto h-[250px] w-[250px] object-cover"
+                  className="rounded-md mx-auto h-[250px] w-[250px] object-contain"
                 />
                 <p className="mt-2 text-sm font-medium text-gray-700">
                   {machine.name}
