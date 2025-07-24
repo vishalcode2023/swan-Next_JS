@@ -87,20 +87,16 @@ const productData = {
     },
   },
    "Cashew": {
-    "1 Chute Type 64 Channels": {
+    "1 Chute Type Cashew ": {
       images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875682/64_channel_cashew_1_chute_nk2rok.jpg"],
       link: "/ColorSorters/Chute-type",
     },
-    "2 Chute Type 128 Channels": {
+    "2 Chute Type Cashew": {
       images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg"],
       link: "/ColorSorters/Chute-type",
     },
-    "2 Chute Type 128 Channels": {
+    "2 Chute Type Cashew": {
       images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg"],
-      link: "/ColorSorters/Chute-type",
-    },
-    "4 Chute 256 Channels": {
-      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg"],
       link: "/ColorSorters/Chute-type",
     },
 
