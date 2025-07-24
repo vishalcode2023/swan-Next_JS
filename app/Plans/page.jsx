@@ -1354,12 +1354,12 @@ const machineData = {
       link: "#",
     },
     {
-      name: "300 belt machine",
+      name: "Sorting Machine",
       image:
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg",
       link: "#",
     },
-    { name: "900 belt machine", image: "/img7.jpeg", link: "#" },
+    { name: "Sorting Machine", image: "/img7.jpeg", link: "#" },
   ],
 
   Pulses: [
@@ -1470,7 +1470,7 @@ const machineData = {
       link: "#",
     },
     {
-      name: "300 belt type",
+      name: "Sorting Machine",
       image:
         "/img1.jpeg",
       link: "#",
