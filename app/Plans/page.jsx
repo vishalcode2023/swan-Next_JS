@@ -103,7 +103,7 @@ const data = {
     ],
     sorting: [
       {
-        label: "damaged quartz",
+        label: "pluses",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938040/damaged_ewuqem.jpg",
       },
       {
