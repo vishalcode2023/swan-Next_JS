@@ -135,7 +135,7 @@ const data = {
         img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.00.13_PM_enyky6.jpg",
       },
       {
-        label: "W220",
+        label: "W240",
         img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.08.13_PM_uk4edw.jpg",
       },
       {
@@ -276,7 +276,7 @@ const data = {
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/garlic_5_lnokql.webp",
       },
       {
-        label: "Bad garlic",
+        label: " garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937070/garlic_4_fgnjif.webp",
       },
       {
@@ -290,6 +290,10 @@ const data = {
       {
         label: "mould garlic",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937071/mould_garlic_bkdub6.webp",
+      },
+      {
+        label: "bad garlic",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341186/WhatsApp_Image_2025-07-24_at_11.46.20_AM_wwc8kd.jpg",
       },
     ],
   },
@@ -1029,6 +1033,12 @@ const machineData = {
         "/img1.jpeg",
       link: "#",
     },
+      {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
+      link: "#",
+    },
   ],
   Plastic: [
     {
@@ -1176,7 +1186,7 @@ const machineData = {
     {
       name: "Sortex machine",
       image:
-        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
       link: "#",
     },
     {
@@ -1348,12 +1358,6 @@ const machineData = {
   ],
   Quartz_and_Minerals: [
     {
-      name: "Sortex machine",
-      image:
-        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
-      link: "#",
-    },
-    {
       name: "Sorting Machine",
       image:
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg",
@@ -1445,7 +1449,7 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331816/WhatsApp_Image_2025-07-23_at_9.36.04_PM_aacsjd.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
       link: "#",
     },
   ],
@@ -1475,13 +1479,25 @@ const machineData = {
         "/img1.jpeg",
       link: "#",
     },
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
+      link: "#",
+    },
   ],
 
   Ragi: [
     {
-      name: "640 Channel 10 chute machine ",
+      name: " Sorting Machine",
       image:
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg",
+      link: "#",
+    },
+        {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
       link: "#",
     },
   ],
