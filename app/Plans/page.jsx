@@ -103,7 +103,7 @@ const data = {
     ],
     sorting: [
       {
-        label: "damaged Quartz",
+        label: "damaged quartz",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752938040/damaged_ewuqem.jpg",
       },
       {
@@ -1184,15 +1184,15 @@ const machineData = {
       link: "#",
     },
     {
-      name: "Sortex machine",
-      image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
-      link: "#",
-    },
-    {
       name: "Elevator",
       image:
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330938/WhatsApp_Image_2025-07-23_at_9.34.41_PM_wzlawi.jpg",
+      link: "#",
+    },
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
       link: "#",
     },
   ],
