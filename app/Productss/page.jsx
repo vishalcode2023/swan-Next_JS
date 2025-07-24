@@ -30,15 +30,23 @@ const productData = {
       link: "/ColorSorters/Chute-type",
     },
     "2 Chute Type 128 Channels": {
-      images: ["/img5.jpeg"],
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg"],
       link: "/ColorSorters/Chute-type",
     },
     "3 Chute 192 Channels": {
       images: ["/img6.jpeg"],
       link: "/ColorSorters/Chute-type",
     },
+       "4 Chute 256 Channels": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
     "5 Chute Type 320 Channels": {
       images: ["/img4.jpeg"],
+      link: "/ColorSorters/Chute-type",
+    },
+     "7 Chute 448 Channels": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875591/448_Channel_7_chute_fb3ugx.jpg"],
       link: "/ColorSorters/Chute-type",
     },
     "8 Chute Type 512 Channels": {
@@ -63,6 +71,39 @@ const productData = {
       images: ["/img11.jpeg"],
       link: "/ColorSorters/Belt-type",
     },
+  },
+  "Belt Type": {
+    "300 belt type MS frame": {
+      images: ["/img1.jpeg"],
+      link: "/ColorSorters/Belt-type",
+    },
+    "300 MM belt type": {
+      images: ["/img2.jpeg"],
+      link: "/ColorSorters/Belt-type",
+    },
+    "600mm belt conveyor": {
+      images: ["/img11.jpeg"],
+      link: "/ColorSorters/Belt-type",
+    },
+  },
+   "Cashew": {
+    "1 Chute Type 64 Channels": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875682/64_channel_cashew_1_chute_nk2rok.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
+    "2 Chute Type 128 Channels": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
+    "2 Chute Type 128 Channels": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
+    "4 Chute 256 Channels": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
+
   },
 };
 
