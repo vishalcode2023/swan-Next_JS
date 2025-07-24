@@ -11,12 +11,12 @@ import AutoPopupChat from "../Components/LandingPages/AutoComponentspop";
 // Product data
 const productData = {
   "Chute Type": {
-    "1 Chute Type 64 Channels": {
-      images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
-      ],
-      link: "/ColorSorters/Chute-type",
-    },
+    // "1 Chute Type 64 Channels": {
+    //   images: [
+    //     "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
+    //   ],
+    //   link: "/ColorSorters/Chute-type",
+    // },
     "1 Chute Type 64 Channels Frame": {
       images: [
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875732/64_Channel_NW_machine_zvbkoy.jpg",
