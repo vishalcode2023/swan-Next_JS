@@ -1142,9 +1142,10 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg",
       link: "#",
     },
+
   ],
   Cashew: [
     {
@@ -1192,7 +1193,7 @@ const machineData = {
     {
       name: "Sortex machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
       link: "#",
     },
   ],
@@ -1446,10 +1447,10 @@ const machineData = {
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330937/WhatsApp_Image_2025-07-23_at_9.34.17_PM_vuqkb2.jpg",
       link: "#",
     },
-    {
-      name: "Sorting Machine",
+       {
+      name: "Sortex machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
       link: "#",
     },
   ],
@@ -1479,12 +1480,12 @@ const machineData = {
         "/img1.jpeg",
       link: "#",
     },
-    {
-      name: "Sortex machine",
-      image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
-      link: "#",
-    },
+      //  {
+    //   name: "Sortex machine",
+    //   image:
+    //     "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
+    //   link: "#",
+    // },
   ],
 
   Ragi: [
@@ -1494,10 +1495,10 @@ const machineData = {
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg",
       link: "#",
     },
-        {
+           {
       name: "Sortex machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
       link: "#",
     },
   ],
