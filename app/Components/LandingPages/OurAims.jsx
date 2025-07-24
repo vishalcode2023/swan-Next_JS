@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const timelineData = [
   {
     year: "2022",
-    text: "New innovation in color sorter technology.",
+    text: "New innovation in color sorter AI technology.",
     highlight: true,
   },
   {
