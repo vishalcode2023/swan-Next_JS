@@ -1024,9 +1024,9 @@ const machineData = {
       link: "#",
     },
     {
-      name: "Sortex machine",
+      name: "300 belt type",
       image:
-        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+        "/img1.jpeg",
       link: "#",
     },
   ],
@@ -1328,7 +1328,7 @@ const machineData = {
     {
       name: "Elevator ",
       image:
-        "",
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1753335638/WhatsApp_Image_2025-07-23_at_9.32.35_PM_wcbnmn.jpg",
       link: "#",
     },
     {
@@ -1470,9 +1470,9 @@ const machineData = {
       link: "#",
     },
     {
-      name: "Sorting Machine ",
+      name: "300 belt type",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg",
+        "/img1.jpeg",
       link: "#",
     },
   ],
