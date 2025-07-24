@@ -25,7 +25,7 @@ const productData = {
     },
     "1 Chute Type 64 Channels": {
       images: [
-        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1746853843/WhatsApp_Image_2025-05-10_at_10.20.46_AM_g7e7xb.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875333/64_channel_1_chute_a27wrm.jpg",
       ],
       link: "/ColorSorters/Chute-type",
     },
@@ -139,7 +139,7 @@ const Page = () => {
                     alt={product.label}
                     width={300}
                     height={200}
-                    className="object-cover w-full h-48 rounded-md"
+                    className="object-contain w-full h-48 rounded-md"
                   />
                   <h3 className="text-lg font-semibold text-gray-800 mt-4">
                     {product.label}
