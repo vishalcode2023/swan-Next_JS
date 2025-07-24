@@ -97,7 +97,7 @@ const data = {
     ],
   },
 
-    Pulses: {
+  Pulses: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
@@ -121,7 +121,7 @@ const data = {
     ],
   },
 
-    Cashew: {
+  Cashew: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
@@ -154,10 +154,24 @@ const data = {
         label: "LWP",
         img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190616/WhatsApp_Image_2025-07-21_at_3.09.03_PM_l6rj1p.jpg",
       },
-        {
+      {
         label: "W450",
         img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753190615/WhatsApp_Image_2025-07-21_at_3.09.12_PM_w4uwup.jpg",
       },
+
+
+      {
+        label: "NW Cashew",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753332169/WhatsApp_Image_2025-07-23_at_9.36.52_PM_mpnsew.jpg",
+      },
+      {
+        label: "Baby cashew",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753332170/WhatsApp_Image_2025-07-23_at_9.36.59_PM_l669oc.jpg",
+      },
+      {
+        label: "Cashew Shell",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753332170/WhatsApp_Image_2025-07-23_at_9.37.05_PM_la80eb.jpg",
+      }
     ],
   },
   GroundNut: {
@@ -170,7 +184,7 @@ const data = {
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937399/mouldy_groundnut_fwvdu7.jpg",
       },
       {
-        label:"broken groundnut",
+        label: "broken groundnut",
         img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937399/broken_groundnut_nbkvc9.webp",
       },
       {
@@ -188,7 +202,7 @@ const data = {
     ],
   },
 
-    "Coffee Beans": {
+  "Coffee Beans": {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217865/coffeesorting_rgaz1u.png",
     ],
@@ -240,7 +254,7 @@ const data = {
     ],
   },
 
-   Garlic: {
+  Garlic: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
     ],
@@ -280,7 +294,7 @@ const data = {
     ],
   },
 
-    Plastic: {
+  Plastic: {
     flow: [
       "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217611/plasticsorting_yxvdel.png",
     ],
@@ -348,51 +362,49 @@ const data = {
     ],
   },
 
-Millets: {
-  flow: [
-    "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-  ],
-  sorting: [
-    {
-      label: "Foxtail Millet",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet2_xvlktg.webp",
-    },
-    {
-      label: "Finger Millet (Ragi)",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet4_mnsz4w.avif",
-    },
-    {
-      label: "Pearl Millet (Bajra)",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet6_kln18u.jpg",
-    },
-    {
-      label: "Little Millet",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet7_o9nu1q.webp",
-    },
-    {
-      label: "Barnyard Millet",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet9_okwkue.webp",
-    },
-    {
-      label: "Kodo Millet",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millt3_tsezfg.jpg",
-    },
-    {
-      label: "Proso Millet",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet10_n2lfmt.webp",
-    },
-    {
-      label: "Brown Top Millet",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet1_fnc64a.webp",
-    },
-    {
-      label: "Sorghum (Jowar)",
-      img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937654/millt5_gsjpqj.jpg",
-    },
-  ],
-},
-
-
+  Millets: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+    ],
+    sorting: [
+      {
+        label: "Foxtail Millet",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet2_xvlktg.webp",
+      },
+      {
+        label: "Finger Millet (Ragi)",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet4_mnsz4w.avif",
+      },
+      {
+        label: "Pearl Millet (Bajra)",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet6_kln18u.jpg",
+      },
+      {
+        label: "Little Millet",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937652/millet7_o9nu1q.webp",
+      },
+      {
+        label: "Barnyard Millet",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet9_okwkue.webp",
+      },
+      {
+        label: "Kodo Millet",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millt3_tsezfg.jpg",
+      },
+      {
+        label: "Proso Millet",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet10_n2lfmt.webp",
+      },
+      {
+        label: "Brown Top Millet",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937653/millet1_fnc64a.webp",
+      },
+      {
+        label: "Sorghum (Jowar)",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752937654/millt5_gsjpqj.jpg",
+      },
+    ],
+  },
 
   Nut: {
     flow: [
@@ -560,22 +572,49 @@ Millets: {
     ],
   },
 
- FriedGram: {
-  flow: [
-    "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
-  ],
-  sorting: [
-    { label: "Roasted Gram Whole", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935811/Roasted-Gram-1_cyx2wd.png" },
-    { label: "Roasted Gram Split", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr22_ijgoc1.jpg" },
-    { label: "Roasted Gram without Skin", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gre_d5tsl2.webp" },
-    { label: "Fried Gram (Chana Dal)", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr33_q7cymc.jpg" },
-    { label: "Premium Roasted Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fdd_1_fcikls.jpg" },
-    { label: "Desi Fried Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fried_gr1_s4yeee.webp" },
-    { label: "Crispy Roasted Gram", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/gr3_kynpzj.webp" },
-    { label: "Roasted Gram with Skin", img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/bad_gr1_hof9r7.jpg" },
-  ],
-},
-
+  FriedGram: {
+    flow: [
+      "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752217446/rice_raw_material_fmrzty.png", // Placeholder flow image
+    ],
+    sorting: [
+      {
+        label: "Roasted Gram Whole",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935811/Roasted-Gram-1_cyx2wd.png",
+      },
+      {
+        label: "Roasted Gram Split",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr22_ijgoc1.jpg",
+      },
+      {
+        label: "Roasted Gram without Skin",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gre_d5tsl2.webp",
+      },
+      {
+        label: "Fried Gram (Chana Dal)",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/gr33_q7cymc.jpg",
+      },
+      {
+        label: "Premium Roasted Gram",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fdd_1_fcikls.jpg",
+      },
+      {
+        label: "Desi Fried Gram",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935809/fried_gr1_s4yeee.webp",
+      },
+      {
+        label: "Crispy Roasted Gram",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/gr3_kynpzj.webp",
+      },
+      {
+        label: "Roasted Gram with Skin",
+        img: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752935808/bad_gr1_hof9r7.jpg",
+      },
+      {
+        label: "Roasted Gram with Skin",
+        img: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330211/WhatsApp_Image_2025-07-23_at_9.32.49_PM_xgroyd.jpg",
+      },
+    ],
+  },
 
   Quartz_and_Minerals: {
     flow: [
@@ -687,7 +726,6 @@ Millets: {
   //     },
   //   ],
   // },
-
 
   Other: {
     flow: [
@@ -833,223 +871,667 @@ const machineData = {
   Rice: [
     {
       name: "Paddy Pre-cleaner",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg",
       link: "#",
     },
     {
       name: "Vibro Classifier",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/05/GVCA-212-9000_00-01-768x489.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/05/GVCA-212-9000_00-01-768x489.jpg",
       link: "#",
     },
     {
       name: "Vibro De-Stoner",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/01/GVDA-2D-120-9000_00-01-768x672.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GVDA-2D-120-9000_00-01-768x672.jpg",
       link: "#",
     },
     {
       name: "Pneumatic Sheller",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/01/SLP08481-768x768.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/SLP08481-768x768.jpg",
       link: "#",
     },
     {
       name: "Husk Aspirator",
-      image: "https://graintecindustries.com/wp-content/uploads/2024/10/HUSK_ASPIRATOR-removebg-preview.png",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2024/10/HUSK_ASPIRATOR-removebg-preview.png",
       link: "#",
     },
     {
       name: "Husk Separator",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/01/Husker-Husse-02-768x555.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/Husker-Husse-02-768x555.jpg",
       link: "#",
     },
     {
       name: "Paddy Separator",
-      image: "https://graintecindustries.com/wp-content/uploads/2024/10/PADDY_SEPARATOR-removebg-preview.png",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2024/10/PADDY_SEPARATOR-removebg-preview.png",
       link: "#",
     },
     {
       name: "Rice De-Stoner",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/01/Rice-Destoner-02-768x659.png",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/Rice-Destoner-02-768x659.png",
       link: "#",
     },
     {
       name: "Thick & Thin Grader",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/01/GTGA-6D-9000_00-01-768x987.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GTGA-6D-9000_00-01-768x987.jpg",
       link: "#",
     },
     {
       name: "Rice Whitener",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/04/RICE-WHITENER-02-768x785.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/RICE-WHITENER-02-768x785.jpg",
       link: "#",
     },
     {
       name: "Rice Polisher",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/01/Silky-Polisher-02-768x756.png",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/Silky-Polisher-02-768x756.png",
       link: "#",
     },
     {
       name: "Rice Silky Polisher", // This name seems redundant with "Rice Polisher"
-      image: "https://graintecindustries.com/wp-content/uploads/2024/10/ROTARY_SIFTER-removebg-preview.png",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2024/10/ROTARY_SIFTER-removebg-preview.png",
       link: "#",
     },
     {
       name: "Rotary Sifter",
-      image: "https://graintecindustries.com/wp-content/uploads/2025/04/LENGTH-GRADER-03-768x432.jpg",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/LENGTH-GRADER-03-768x432.jpg",
+      link: "#",
+    },
+    {
+      name: "Elevator",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330937/WhatsApp_Image_2025-07-23_at_9.34.30_PM_vh4xe2.jpg",
       link: "#",
     },
     {
       name: "Sorting Machine",
-      image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
       link: "#",
     },
   ],
   Beans: [
-    { name: "Bean Processing Machine 1", image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+1", link: "#" },
-    { name: "Bean Processing Machine 2", image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+2", link: "#" },
+    {
+      name: "Bean Processing Machine 1",
+      image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+1",
+      link: "#",
+    },
+    {
+      name: "Bean Processing Machine 2",
+      image: "https://placehold.co/160x100/ADD8E6/000000?text=Bean+Machine+2",
+      link: "#",
+    },
   ],
   Nut: [
     {
       name: "Sorting Machine",
-      image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
       link: "#",
     },
   ],
   "Coffee Beans": [
-    { name: "Pre cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.41.21_PM_rx7ptn.jpg", link: "#" },
-    { name: "Bullet and osilator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.41.32_PM_zypfyg.jpg", link: "#" },
-    { name: "Huller and osilator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.42.05_PM_jndagv.jpg", link: "#" },
-    { name: "Destoner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934548/WhatsApp_Image_2025-07-18_at_1.42.15_PM_q2u8fn.jpg", link: "#" },
-    { name: "Gravity block", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934545/WhatsApp_Image_2025-07-18_at_1.42.26_PM_mjqyol.jpg", link: "#" },
-    { name: "Grander", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934960/WhatsApp_Image_2025-07-18_at_1.42.37_PM_ornji9.jpg", link: "#" },
-    { name: "Elevator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_5.24.04_PM_ji3heb.jpg", link: "#" },
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+    {
+      name: "Pre cleaner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.41.21_PM_rx7ptn.jpg",
+      link: "#",
+    },
+    {
+      name: "Bullet and osilator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.41.32_PM_zypfyg.jpg",
+      link: "#",
+    },
+    {
+      name: "Huller and osilator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934544/WhatsApp_Image_2025-07-18_at_1.42.05_PM_jndagv.jpg",
+      link: "#",
+    },
+    {
+      name: "Destoner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934548/WhatsApp_Image_2025-07-18_at_1.42.15_PM_q2u8fn.jpg",
+      link: "#",
+    },
+    {
+      name: "Gravity block",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934545/WhatsApp_Image_2025-07-18_at_1.42.26_PM_mjqyol.jpg",
+      link: "#",
+    },
+    {
+      name: "Grander",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752934960/WhatsApp_Image_2025-07-18_at_1.42.37_PM_ornji9.jpg",
+      link: "#",
+    },
+    {
+      name: "Elevator",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330210/WhatsApp_Image_2025-07-23_at_9.32.35_PM_sjtpq0.jpg",
+      link: "#",
+    },
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+      link: "#",
+    },
   ],
   Plastic: [
-    { name: " Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg", link: "#" },
-    { name: "Cutting machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.35_PM_pxjvkq.jpg", link: "#" },
-    { name: "Washing line", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.48_PM_jublp4.jpg", link: "#" },
-    { name: "Plastic  Bottle Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.00_PM_viftht.jpg", link: "#" },
-    { name: "Film Recycling", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.09_PM_wgtydb.jpg", link: "#" },
-    { name: "Film Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.19_PM_r1yhvn.jpg", link: "#" },
-    { name: "Rigid Plastic Pelletizing", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg", link: "#" },
-    { name: "Plastic Shredder Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.37_PM_q2r6r8.jpg", link: "#" },
-    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
+    {
+      name: " Bottle Recycling",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.23_PM_p9xl24.jpg",
+      link: "#",
+    },
+    {
+      name: "Cutting machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.35_PM_pxjvkq.jpg",
+      link: "#",
+    },
+    {
+      name: "Washing line",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.13.48_PM_jublp4.jpg",
+      link: "#",
+    },
+    {
+      name: "Plastic  Bottle Recycling",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.00_PM_viftht.jpg",
+      link: "#",
+    },
+    {
+      name: "Film Recycling",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.09_PM_wgtydb.jpg",
+      link: "#",
+    },
+    {
+      name: "Film Pelletizing",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765896/WhatsApp_Image_2025-07-17_at_3.14.19_PM_r1yhvn.jpg",
+      link: "#",
+    },
+    {
+      name: "Rigid Plastic Pelletizing",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.29_PM_b2nwl3.jpg",
+      link: "#",
+    },
+    {
+      name: "Plastic Shredder Machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752765897/WhatsApp_Image_2025-07-17_at_3.14.37_PM_q2r6r8.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+      link: "#",
+    },
   ],
   Seed: [
-    { name: "Seed Pre Cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.51_AM_givflc.jpg", link: "#" },
-    { name: "Seed Grader", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763243/WhatsApp_Image_2025-07-15_at_11.05.51_AM_1_tus36y.jpg", link: "#" },
-    { name: "Indented Cylinder", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.52_AM_ss0uhm.jpg", link: "#" },
-    { name: "Vibro type destoner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.52_AM_1_q7ne8s.jpg", link: "#" },
-    { name: "Vertical bucket elevator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.53_AM_ydcmeq.jpg", link: "#" },
-    { name: "Magnetic Destoner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.53_AM_1_itrns3.jpg", link: "#" },
-    { name: "Gravity Separator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763243/WhatsApp_Image_2025-07-15_at_11.05.53_AM_2_ruxzjf.jpg", link: "#" },
-    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
+    {
+      name: "Seed Pre Cleaner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.51_AM_givflc.jpg",
+      link: "#",
+    },
+    {
+      name: "Seed Grader",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763243/WhatsApp_Image_2025-07-15_at_11.05.51_AM_1_tus36y.jpg",
+      link: "#",
+    },
+    {
+      name: "Indented Cylinder",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.52_AM_ss0uhm.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro type destoner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.52_AM_1_q7ne8s.jpg",
+      link: "#",
+    },
+    {
+      name: "Vertical bucket elevator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.53_AM_ydcmeq.jpg",
+      link: "#",
+    },
+    {
+      name: "Magnetic Destoner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763242/WhatsApp_Image_2025-07-15_at_11.05.53_AM_1_itrns3.jpg",
+      link: "#",
+    },
+    {
+      name: "Gravity Separator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752763243/WhatsApp_Image_2025-07-15_at_11.05.53_AM_2_ruxzjf.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+      link: "#",
+    },
   ],
   Cashew: [
-    { name: "Boiling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752933545/WhatsApp_Image_2025-07-18_at_10.22.29_AM_wox9w4.jpg", link: "#" },
-    { name: "Cutting Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764005/WhatsApp_Image_2025-07-15_at_4.46.57_PM_ommosg.jpg", link: "#" },
-    { name: "Scooping line", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764007/WhatsApp_Image_2025-07-15_at_4.47.37_PM_kdstrh.jpg", link: "#" },
-    { name: "NW Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.47.46_PM_d16sgw.jpg", link: "#" },
-    { name: "Hot house", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764007/WhatsApp_Image_2025-07-15_at_4.47.57_PM_fozmft.jpg", link: "#" },
-    { name: " Peeling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.48.09_PM_od9ye3.jpg", link: "#" },
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+    {
+      name: "Boiling machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752933545/WhatsApp_Image_2025-07-18_at_10.22.29_AM_wox9w4.jpg",
+      link: "#",
+    },
+    {
+      name: "Cutting Machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764005/WhatsApp_Image_2025-07-15_at_4.46.57_PM_ommosg.jpg",
+      link: "#",
+    },
+    {
+      name: "Scooping line",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764007/WhatsApp_Image_2025-07-15_at_4.47.37_PM_kdstrh.jpg",
+      link: "#",
+    },
+    {
+      name: "NW Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.47.46_PM_d16sgw.jpg",
+      link: "#",
+    },
+    {
+      name: "Hot house",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764007/WhatsApp_Image_2025-07-15_at_4.47.57_PM_fozmft.jpg",
+      link: "#",
+    },
+    {
+      name: " Peeling machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.48.09_PM_od9ye3.jpg",
+      link: "#",
+    },
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+      link: "#",
+    },
+    {
+      name: "Elevator",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330938/WhatsApp_Image_2025-07-23_at_9.34.41_PM_wzlawi.jpg",
+      link: "#",
+    },
   ],
   GroundNut: [
-    { name: "Pre Cleaner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.53_PM_ukvm4x.jpg", link: "#" },
-    { name: "Destoner Machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.32.10_PM_mwy0dc.jpg", link: "#" },
-    { name: "Decadicator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511025/WhatsApp_Image_2025-07-14_at_12.27.54_PM_t3sfx5.jpg", link: "#" },
-    { name: "Shaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511023/WhatsApp_Image_2025-07-14_at_12.27.54_PM_2_wwh2aw.jpg", link: "#" },
-    { name: "Round Shaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.54_PM_1_h6pkco.jpg", link: "#" },
-    { name: "HPS", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.56.36_PM_txyyk1.jpg", link: "#" },
-    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
+    {
+      name: "Pre Cleaner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.53_PM_ukvm4x.jpg",
+      link: "#",
+    },
+    {
+      name: "Destoner Machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.32.10_PM_mwy0dc.jpg",
+      link: "#",
+    },
+    {
+      name: "Decadicator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511025/WhatsApp_Image_2025-07-14_at_12.27.54_PM_t3sfx5.jpg",
+      link: "#",
+    },
+    {
+      name: "Shaker",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511023/WhatsApp_Image_2025-07-14_at_12.27.54_PM_2_wwh2aw.jpg",
+      link: "#",
+    },
+    {
+      name: "Round Shaker",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752511024/WhatsApp_Image_2025-07-14_at_12.27.54_PM_1_h6pkco.jpg",
+      link: "#",
+    },
+    {
+      name: "HPS",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764008/WhatsApp_Image_2025-07-15_at_4.56.36_PM_txyyk1.jpg",
+      link: "#",
+    },
+     {
+      name: "Elevator",
+      image:
+        " https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330210/WhatsApp_Image_2025-07-23_at_9.32.35_PM_sjtpq0.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+      link: "#",
+    },
   ],
   RagiPlant: [
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
-     { name: "Sorting Machine ", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg", link: "#" },    
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg",
+      link: "#",
+    },
   ],
   Wheat: [
-    { name: "Drum Sieve", image: "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg", link: "#" },
-    { name: "Grain Pre Cleaner", image: "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg", link: "#" },
-    { name: "Vibro Classifier",image:"https://graintecindustries.com/wp-content/uploads/2025/01/GVCA-212-9000_00-01-768x489.jpg", link: "#" },
-    {name: "De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2025/03/SLP08733-768x768.jpg", link: "#" },
-    {name: "Vibro De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png", link:"#"},
-    {name: "Mud Ball Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg", link:"#"},
-    {name: "Gravity Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg", link:"#"},
-    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
+    {
+      name: "Drum Sieve",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg",
+      link: "#",
+    },
+    {
+      name: "Grain Pre Cleaner",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro Classifier",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GVCA-212-9000_00-01-768x489.jpg",
+      link: "#",
+    },
+    {
+      name: "De-Stoner",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/03/SLP08733-768x768.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro De-Stoner",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png",
+      link: "#",
+    },
+    {
+      name: "Mud Ball Separator",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg",
+      link: "#",
+    },
+    {
+      name: "Gravity Separator",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+      link: "#",
+    },
   ],
   FriedGram: [
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
-    
+    {
+      name: "Precleaner ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330210/WhatsApp_Image_2025-07-23_at_9.30.49_PM_qr1hmn.jpg",
+      link: "#",
+    },
+    {
+      name: "Destoner ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330210/WhatsApp_Image_2025-07-23_at_9.31.02_PM_ofcgsb.jpg",
+      link: "#",
+    },
+    {
+      name: "Friedgram Roaster ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330210/WhatsApp_Image_2025-07-23_at_9.31.14_PM_kia1iw.jpg",
+      link: "#",
+    },
+    {
+      name: "",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330210/WhatsApp_Image_2025-07-23_at_9.31.32_PM_vkeplk.jpg",
+      link: "#",
+    },
+    {
+      name: "Elevator ",
+      image:
+        "",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+      link: "#",
+    },
   ],
   Raisin: [
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+      link: "#",
+    },
   ],
   Quartz_and_Minerals: [
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
-    { name: "300 belt machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg", link: "#" },
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+      link: "#",
+    },
+    {
+      name: "300 belt machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg",
+      link: "#",
+    },
     { name: "900 belt machine", image: "/img7.jpeg", link: "#" },
-
   ],
 
-   Pulses: [
-    { name: "Drum Sieve", image: "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg", link: "#" },
-    { name: "Grain Pre Cleaner", image: "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg", link: "#" },
-    { name: "Vibro Classifier",image:"https://graintecindustries.com/wp-content/uploads/2025/01/GVCA-212-9000_00-01-768x489.jpg", link: "#" },
-    {name: "De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2025/03/SLP08733-768x768.jpg", link: "#" },
-    {name: "Vibro De-Stoner",image:"https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png", link:"#"},
-    {name: "Mud Ball Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg", link:"#"},
-    {name: "Gravity Separator",image:"https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg", link:"#"},
-    
-  {
-    name: "Pulse De Huller",
-    image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
-  },
-  {
-    name: "Vibro Aspirator",
-    image:"https://graintecindustries.com/wp-content/uploads/2025/01/Vibro_Aspirator_02-removebg-preview.png", // Placeholder image
-  },
-  {
-    name: "Fatka Splitter",
-    image:"https://graintecindustries.com/wp-content/uploads/2025/04/Fatka-02-768x758.jpg", // Placeholder image
-  },
-  {
-    name: "Pulse De Huller",
-    image:"https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
-  },
-  {
-    name: "Chakki Splitter",
-    image:"http://graintecindustries.com/wp-content/uploads/2025/04/CHAKKI-03-768x987.jpg", // Placeholder image
-  },
-  {
-    name: "Dal Buff Polisher",
-    image:"https://graintecindustries.com/wp-content/uploads/2025/04/Buff_Polisher-07-768x779.jpg", // Placeholder image
-  },
-  { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
+  Pulses: [
+    {
+      name: "Drum Sieve",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GDSB-9000_00-01-768x756.jpg",
+      link: "#",
+    },
+    {
+      name: "Grain Pre Cleaner",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/PRE-CLEANER-1500-08-768x665.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro Classifier",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GVCA-212-9000_00-01-768x489.jpg",
+      link: "#",
+    },
+    {
+      name: "De-Stoner",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/03/SLP08733-768x768.jpg",
+      link: "#",
+    },
+    {
+      name: "Vibro De-Stoner",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2024/10/VIBRO_DE-STONER-removebg-preview.png",
+      link: "#",
+    },
+    {
+      name: "Mud Ball Separator",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3690_01-732x1024.jpg",
+      link: "#",
+    },
+    {
+      name: "Gravity Separator",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/IMG_3749-768x432.jpg",
+      link: "#",
+    },
+
+    {
+      name: "Pulse De Huller",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
+    },
+    {
+      name: "Vibro Aspirator",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/Vibro_Aspirator_02-removebg-preview.png", // Placeholder image
+    },
+    {
+      name: "Fatka Splitter",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/Fatka-02-768x758.jpg", // Placeholder image
+    },
+    {
+      name: "Pulse De Huller",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/01/GHLC-D-9001_00-01-768x804.jpg", // Placeholder image
+    },
+    {
+      name: "Chakki Splitter",
+      image:
+        "http://graintecindustries.com/wp-content/uploads/2025/04/CHAKKI-03-768x987.jpg", // Placeholder image
+    },
+    {
+      name: "Dal Buff Polisher",
+      image:
+        "https://graintecindustries.com/wp-content/uploads/2025/04/Buff_Polisher-07-768x779.jpg", // Placeholder image
+    },
+    {
+      name: "Elevator",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330937/WhatsApp_Image_2025-07-23_at_9.34.17_PM_vuqkb2.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331816/WhatsApp_Image_2025-07-23_at_9.36.04_PM_aacsjd.jpg",
+      link: "#",
+    },
   ],
 
   Garlic: [
-    { name: "Bulb breaker", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_5.27.37_PM_qdc0rk.jpg", link: "#" },
-    { name: "Peeling machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.45_PM_froxnx.jpg", link: "#" },
-    { name: "Garlic washing machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.53_PM_qe0fat.jpg", link: "#" },
-    { name: "Sorting Machine ", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg", link: "#" },    
-
+    {
+      name: "Bulb breaker",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_5.27.37_PM_qdc0rk.jpg",
+      link: "#",
+    },
+    {
+      name: "Peeling machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.45_PM_froxnx.jpg",
+      link: "#",
+    },
+    {
+      name: "Garlic washing machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752766456/WhatsApp_Image_2025-07-15_at_5.27.53_PM_qe0fat.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg",
+      link: "#",
+    },
   ],
 
-   Ragi: [
-    { name: "640 Channel 10 chute machine ", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg", link: "#" },
+  Ragi: [
+    {
+      name: "640 Channel 10 chute machine ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg",
+      link: "#",
+    },
   ],
-
 
   Millets: [
-    { name: "Grader Cum Aspirator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.15_PM_uj2isw.jpg", link: "#" },
-    { name: "Destoner", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764833/WhatsApp_Image_2025-07-17_at_1.14.15_PM_1_tz94vx.jpg", link: "#" },
-    { name: "Dehuller", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_ukpoqa.jpg", link: "#" },
-    { name: "Gravity separator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_1_hdnbav.jpg", link: "#" },
-    { name: "Elevator", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_2_wahvxq.jpg", link: "#" },
-    { name: "Sorting Machine", image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg", link: "#" },
+    {
+      name: "Grader Cum Aspirator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.15_PM_uj2isw.jpg",
+      link: "#",
+    },
+    {
+      name: "Destoner",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764833/WhatsApp_Image_2025-07-17_at_1.14.15_PM_1_tz94vx.jpg",
+      link: "#",
+    },
+    {
+      name: "Dehuller",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_ukpoqa.jpg",
+      link: "#",
+    },
+    {
+      name: "Gravity separator",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764834/WhatsApp_Image_2025-07-17_at_1.14.16_PM_1_hdnbav.jpg",
+      link: "#",
+    },
+    {
+      name: "Elevator",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753330938/WhatsApp_Image_2025-07-23_at_9.35.06_PM_myf2y8.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+      link: "#",
+    },
   ],
 
-    Other: [
-    { name: "Sortex machine", image: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg", link: "#" },
+  Other: [
+    {
+      name: "Sortex machine",
+      image:
+        "https://res.cloudinary.com/dt2juqy9s/image/upload/v1752764009/WhatsApp_Image_2025-07-15_at_4.48.19_PM_jvnuga.jpg",
+      link: "#",
+    },
   ],
 };
 
@@ -1090,8 +1572,8 @@ const imageItemVariants = {
     transition: {
       type: "spring",
       stiffness: 120, // Slightly less stiff for a smoother feel
-      damping: 15,    // More damping for less bounce
-      duration: 0.6,  // Explicit duration for overall animation
+      damping: 15, // More damping for less bounce
+      duration: 0.6, // Explicit duration for overall animation
     },
   },
 };
@@ -1103,7 +1585,6 @@ export default function PlanPage() {
   const machinesToDisplay = machineData[active] || [];
   // Determine which sorting images to display based on the active tab
   const sortingToDisplay = data[active]?.sorting || [];
-
 
   return (
     <div>
@@ -1128,10 +1609,10 @@ export default function PlanPage() {
         >
           Our customizable systems are designed to maximize productivity while
           maintaining the integrity and appearance of your produce. With a focus
-          on energy efficiency and sustainability, SwanSorter system offers reliable and
-          innovative solutions tailored to meet the unique needs of your
-          processing facility. Partner with us to enhance your operations and
-          achieve the highest quality output.
+          on energy efficiency and sustainability, SwanSorter system offers
+          reliable and innovative solutions tailored to meet the unique needs of
+          your processing facility. Partner with us to enhance your operations
+          and achieve the highest quality output.
         </motion.p>
 
         {/* Tabs */}
@@ -1186,7 +1667,10 @@ export default function PlanPage() {
                 variants={imageItemVariants}
               >
                 <img
-                  src={machine.image || "https://placehold.co/160x100?text=No+Image"}
+                  src={
+                    machine.image ||
+                    "https://placehold.co/160x100?text=No+Image"
+                  }
                   alt={machine.name}
                   className="rounded-md mx-auto h-[250px] w-[250px] object-contain"
                 />
@@ -1225,7 +1709,9 @@ export default function PlanPage() {
                   variants={imageItemVariants}
                 >
                   <img
-                    src={item.img || "https://placehold.co/160x100?text=No+Image"} // Fallback for empty image URLs
+                    src={
+                      item.img || "https://placehold.co/160x100?text=No+Image"
+                    } // Fallback for empty image URLs
                     alt={item.label}
                     className="rounded-md mx-auto h-[100px] w-[160px] object-cover"
                   />
@@ -1237,7 +1723,6 @@ export default function PlanPage() {
             </motion.div>
           </>
         )}
-
       </div>
       <ContactSidebar />
       <ChatBot />
