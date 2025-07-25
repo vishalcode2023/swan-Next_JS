@@ -148,28 +148,33 @@ const solutions = [
             },
           },
         ],
-        recommended: [
+         recommended: [
           {
             image: "/img1.jpeg",
-            title: "swan 300 belt type ms frame"
+            title: "swan 300 belt type ms frame",
+            link: "/Products/pro1",
           },
           {
             image: "/img2.jpeg",
-            title: "swan 300 mm belt type"
+            title: "swan 600 mm belt type",
+            link: "/Products/pro12",
           },
           {
             image: "/img4.jpeg",
-            title: "swan 3 Chute 192 Channel"
+            title: "swan 5 Chute 320 Channel",
+            link: "/Products/pro5",
           },
           {
             image: "/img5.jpeg",
-            title: "swan 2 chute 128 channel box type"
+            title: "swan 5 chute 320 channel box type",
+            link: "/Products/pro4",
           },
           {
             image: "/img6.jpeg",
-            title: "Swan 3 chute 192 channel"
-          }
-        ]
+            title: "Swan 3 chute 192 channel",
+            link: "/Products/pro3",
+          },
+        ],
       }
     ],
   },
