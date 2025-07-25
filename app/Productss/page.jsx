@@ -33,6 +33,14 @@ const productData = {
       images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg"],
       link: "/ColorSorters/Chute-type",
     },
+    "2 Chute forward machine": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875993/128_Channel_Forward_2_chute_bgl5ai.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
+    "3 chute forward machine" :{
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876029/192_Channel_Forward_3_chute_kxffex.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
     "3 Chute 192 Channels": {
       images: ["/img6.jpeg"],
       link: "/ColorSorters/Chute-type",
@@ -97,6 +105,10 @@ const productData = {
     },
     "2 Chute Type Cashew": {
       images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg"],
+      link: "/ColorSorters/Chute-type",
+    },
+    "3 Chute Type Cashew": {
+      images: ["https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875844/192_channel_cashew_3_chute_hsg4a6.jpg"],
       link: "/ColorSorters/Chute-type",
     },
 
