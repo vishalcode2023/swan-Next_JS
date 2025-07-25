@@ -94,12 +94,12 @@ const solutions = [
             title: "Swan 300 Belt Type MS Frame",
           },
           {
-            image: "/img2.jpeg",
-            title: "Swan 300 mm Belt Type",
+            image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876257/600mm_belt_conveyor_kk4wj4.jpg",
+            title: "Swan 600 mm Belt Type",
           },
           {
             image: "/img3.JPG",
-            title: "Swan 1 Chute 64 Channels",
+            title: "Swan 2 Chute 128 Channels",
           },
         ],
       },
@@ -382,7 +382,7 @@ const solutions = [
         recommended: [
           {
             image: "/img10.jpeg",
-            title: "Swan 5 Chute 320 Channel",
+            title: "Swan 10 Chute 640 Channel",
           },
           {
             image: "/img11.jpeg",
@@ -716,7 +716,7 @@ const solutions = [
         recommended: [
           {
             image: "/img10.jpeg",
-            title: "Swan 5 Chute 320 Channel",
+            title: "Swan 10 Chute 640 Channel",
           },
           {
             image: "/img11.jpeg",
@@ -812,11 +812,11 @@ const solutions = [
         recommended: [
           {
             image: "/img4.jpeg",
-            title: "Swan 3 Chute 192 Channel",
+            title: "Swan 5 Chute 320 Channel",
           },
           {
             image: "/img5.jpeg",
-            title: "Swan 2 Chute 128 Channel Box Type",
+            title: "Swan 5 Chute 320 Channel Box Type",
           },
           {
             image: "/img6.jpeg",
@@ -878,7 +878,7 @@ const solutions = [
         recommended: [
           {
             image: "/img10.jpeg",
-            title: "Swan 5 Chute 320 Channel",
+            title: "Swan 10 Chute 640 Channel",
           },
           {
             image: "/img11.jpeg",
@@ -914,7 +914,7 @@ const solutions = [
         recommended: [
           {
             image: "/img10.jpeg",
-            title: "Swan 5 Chute 320 Channel",
+            title: "Swan 10 Chute 640 Channel",
           },
           {
             image: "/img11.jpeg",
@@ -1000,7 +1000,7 @@ const solutions = [
         recommended: [
           {
             image: "/img5.jpeg",
-            title: "Swan 300 Belt Type MS Frame",
+            title: "Swan 5 Chute 320 Channel",
           },
           {
             image: "/img1.jpeg",
@@ -1008,7 +1008,7 @@ const solutions = [
           },
           {
             image: "/img10.jpeg",
-            title: "Swan 8 Chute 512 Channel",
+            title: "Swan 10 Chute 640 Channel",
           },
         ],
       },
@@ -1040,7 +1040,7 @@ const solutions = [
           },
           {
             image: "/img5.jpeg",
-            title: "Swan 600 mm Belt Type Machine",
+            title: "Swan 5 Chute 320 Channel",
           },
           {
             image: "/img8.jpeg",
@@ -1076,7 +1076,7 @@ const solutions = [
           },
           {
             image: "/img5.jpeg",
-            title: "Swan 600 mm belt type machine",
+            title: "Swan 5 Chute 320 Channel",
           },
           {
             image: "/img8.jpeg",
@@ -1111,7 +1111,7 @@ const solutions = [
           },
           {
             image: "/img5.jpeg",
-            title: "Swan 600 mm Belt Type Machine",
+            title: "Swan 5 Chute 320 Channel",
           },
           {
             image: "/img8.jpeg",
@@ -1140,11 +1140,15 @@ const solutions = [
         ],
         recommended: [
           {
-            image: "/img2.jpeg",
-            title: "Swan 300 Belt Type MS Frame",
+            image: "/img5.jpeg",
+            title: "Swan 5 Chute 320 Channel",
           },
           {
             image: "/img7.jpeg",
+            title: "Swan 600 Belt Type MS Frame",
+          },
+          {
+            image: "/img8.jpeg",
             title: "Swan 8 Chute 512 Channel",
           },
         ],
@@ -1214,6 +1218,20 @@ const solutions = [
             },
           },
         ],
+        recommended: [
+          {
+            image: "/img5.jpeg",
+            title: "Swan 5 Chute 320 Channel",
+          },
+          {
+            image: "/img7.jpeg",
+            title: "Swan 600 Belt Type MS Frame",
+          },
+          {
+            image: "/img8.jpeg",
+            title: "Swan 8 Chute 512 Channel",
+          },
+        ],
       },
       {
         name: "Grain",
@@ -1237,15 +1255,15 @@ const solutions = [
         recommended: [
           {
             image: "/img5.jpeg",
-            title: "swan 300 belt type ms frame",
+            title: "swan 5 chute 320 channel",
           },
           {
             image: "/img1.jpeg",
-            title: "Swan 600 mm belt type machine",
+            title: "Swan 300 mm belt type machine",
           },
           {
             image: "/img10.jpeg",
-            title: "Swan 8 chute 512 channel",
+            title: "Swan 10 chute 640 channel",
           },
         ],
       },
