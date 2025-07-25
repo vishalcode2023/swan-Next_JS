@@ -26,7 +26,7 @@ const products = [
     DrawingsLink: "/pdfDrawings/SS64R-00 AI Reverse cabin drawing.PDF",
   },
   {
-    name: "Swan  3 chute 128 channel",
+    name: "Swan 2 chute 128 channel",
     image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
     description:
       "Flagship model built for ultra-speed industrial-scale operations.",
