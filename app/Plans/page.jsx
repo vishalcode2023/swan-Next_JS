@@ -1243,7 +1243,7 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875532/320_Channel_5_chute_pyq62s.jpg",
       link: "#",
     },
   ],
@@ -1450,7 +1450,7 @@ const machineData = {
        {
       name: "Sortex machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg",
       link: "#",
     },
   ],
