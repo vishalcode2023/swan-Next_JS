@@ -173,11 +173,11 @@ const solutions = [
   recommended: [
     {
       image: "/img4.jpeg",
-      title: "Swan 3 chute 192 channel",
+      title: "Swan 5 chute 320 channel",
     },
     {
       image: "/img5.jpeg",
-      title: "Swan 2 chute 128 channel box type",
+      title: "Swan 5 chute 320 channel box type",
     },
     {
       image: "/img6.jpeg",
