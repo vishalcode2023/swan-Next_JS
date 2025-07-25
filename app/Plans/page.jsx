@@ -963,6 +963,12 @@ const machineData = {
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
       link: "#",
     },
+    {
+      name: "Sorting Machine ",
+      image:
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875631/512_Channel_8_chute_smmkzj.jpg",
+      link: "#",
+    },
   ],
   Beans: [
     {
@@ -978,9 +984,19 @@ const machineData = {
   ],
   Nut: [
     {
-      name: "Sorting Machine",
+      name: " Sorting Machine ",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+        "/img1.jpeg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine ",
+      image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875732/64_Channel_NW_machine_zvbkoy.jpg",
+      link: "#",
+    },
+    {
+      name: "Sorting Machine ",
+      image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876257/600mm_belt_conveyor_kk4wj4.jpg",
       link: "#",
     },
   ],
@@ -1031,12 +1047,6 @@ const machineData = {
       name: "300 belt type",
       image:
         "/img1.jpeg",
-      link: "#",
-    },
-      {
-      name: "Sorting Machine",
-      image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753341443/WhatsApp_Image_2025-07-24_at_12.12.17_PM_slh07x.jpg",
       link: "#",
     },
   ],
@@ -1092,7 +1102,7 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg",
       link: "#",
     },
   ],
@@ -1345,7 +1355,7 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1753331616/WhatsApp_Image_2025-07-23_at_9.35.40_PM_kshxvp.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875532/320_Channel_5_chute_pyq62s.jpg",
       link: "#",
     },
   ],
@@ -1495,12 +1505,6 @@ const machineData = {
         "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg",
       link: "#",
     },
-           {
-      name: "Sortex machine",
-      image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
-      link: "#",
-    },
   ],
 
   Millets: [
@@ -1537,7 +1541,7 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875532/320_Channel_5_chute_pyq62s.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876126/640_Channel_Forward_10_chute_ryrk7f.jpg",
       link: "#",
     },
   ],
