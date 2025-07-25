@@ -1344,11 +1344,11 @@ const solutions = [
           },
           {
             image: "/img11.jpeg",
-            title: "Plastic Flakes Washing Machine",
+            title: "Color Sorter Machine",
           },
           {
             image: "/img12.jpeg",
-            title: "Quartz Crusher Machine",
+            title: "Color Sorter Machine",
           },
           {
             image: "/img13.jpeg",
