@@ -1537,7 +1537,7 @@ const machineData = {
     {
       name: "Sorting Machine",
       image:
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875532/320_Channel_5_chute_pyq62s.jpg",
       link: "#",
     },
   ],
