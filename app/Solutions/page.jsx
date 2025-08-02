@@ -1556,7 +1556,6 @@ const Page = () => {
           </div>
         </motion.div>
 
-        <VideoSection />
 
         {/* Recommended Machines Section */}
         <div className="mt-14">
