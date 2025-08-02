@@ -95,7 +95,7 @@ const solutions = [
           },
           {
             image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876257/600mm_belt_conveyor_kk4wj4.jpg",
-            title: "Swan 600 mm Belt Type",
+            title: "Swan 300 mm Belt Type",
           },
           {
             image: "/img3.JPG",
