@@ -20,7 +20,7 @@ const solutions = [
   {
     id: "MultiGrains",
     title: "Agricultural Products Sorting",
-    image: "/Urent/soluationimg1.png",
+    image: "https://ik.imagekit.io/bxhlcmkcf/Urent/img1.png?updatedAt=1756188554955",
     icon: "🌾",
     items: [
       //Rice
