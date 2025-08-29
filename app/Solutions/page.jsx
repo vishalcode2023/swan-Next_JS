@@ -626,48 +626,48 @@ const solutions = [
             },
           },
 
-          //
-          // {
-          //   src: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754968453/WhatsApp_Image_2025-08-11_at_7.07.50_PM_1_jm6ka0.jpg", // Add image path if available
-          //   title: " Input Material ",
-          //   details: {
-          //     points: [
-          //       "Removes damaged kernels, shells, and foreign particles using AI and vision-based detection",
-          //       "Ensures uniform size, color, and quality for premium-grade output",
-          //       "Enhances processing efficiency while reducing manual sorting efforts",
-          //       "Supports high-capacity throughput for commercial nut processing facilities",
-          //     ],
-          //     description: "",
-          //   },
-          // },
+          
+          {
+            src: "/Urent/Groundnutinp.jpeg", // Add image path if available
+            title: " Input Material ",
+            details: {
+              points: [
+                "Removes damaged kernels, shells, and foreign particles using AI and vision-based detection",
+                "Ensures uniform size, color, and quality for premium-grade output",
+                "Enhances processing efficiency while reducing manual sorting efforts",
+                "Supports high-capacity throughput for commercial nut processing facilities",
+              ],
+              description: "",
+            },
+          },
 
-          // {
-          //   src: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754968452/WhatsApp_Image_2025-08-11_at_7.07.49_PM_2_zrntns.jpg", // Add image path if available
-          //   title: " Accept",
-          //   details: {
-          //     points: [
-          //       "Removes damaged kernels, shells, and foreign particles using AI and vision-based detection",
-          //       "Ensures uniform size, color, and quality for premium-grade output",
-          //       "Enhances processing efficiency while reducing manual sorting efforts",
-          //       "Supports high-capacity throughput for commercial nut processing facilities",
-          //     ],
-          //     description: " ",
-          //   },
-          // },
+          {
+            src: "/Urent/Groundnutacc.jpeg", // Add image path if available
+            title: " Accept",
+            details: {
+              points: [
+                "Removes damaged kernels, shells, and foreign particles using AI and vision-based detection",
+                "Ensures uniform size, color, and quality for premium-grade output",
+                "Enhances processing efficiency while reducing manual sorting efforts",
+                "Supports high-capacity throughput for commercial nut processing facilities",
+              ],
+              description: " ",
+            },
+          },
 
-          // {
-          //   src: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754968454/WhatsApp_Image_2025-08-11_at_7.07.50_PM_lgf8i6.jpg", // Add image path if available
-          //   title: " Rejection",
-          //   details: {
-          //     points: [
-          //       "Removes damaged kernels, shells, and foreign particles using AI and vision-based detection",
-          //       "Ensures uniform size, color, and quality for premium-grade output",
-          //       "Enhances processing efficiency while reducing manual sorting efforts",
-          //       "Supports high-capacity throughput for commercial nut processing facilities",
-          //     ],
-          //     description: " ",
-          //   },
-          // },
+          {
+            src: "/Urent/Groundnutrej.jpeg", // Add image path if available
+            title: " Rejection",
+            details: {
+              points: [
+                "Removes damaged kernels, shells, and foreign particles using AI and vision-based detection",
+                "Ensures uniform size, color, and quality for premium-grade output",
+                "Enhances processing efficiency while reducing manual sorting efforts",
+                "Supports high-capacity throughput for commercial nut processing facilities",
+              ],
+              description: " ",
+            },
+          },
 
           {
             src: "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754968447/WhatsApp_Image_2025-08-11_at_7.07.49_PM_dmnyoj.jpg", // Add image path if available

@@ -73,15 +73,14 @@ const extraVideos = [
   // {
   //   src: "https://player.cloudinary.com/embed/?cloud_name=dybpd6dkz&public_id=IMG_4321_lghw2k&profile=cld-default",
   // },
-  // {
-  //   src: "https://player.cloudinary.com/embed/?cloud_name=dybpd6dkz&public_id=IMG_4320_b9dxmr&profile=cld-default",
-  // },
-
   {
     src: "/Urent/video14.mp4",
   },
   {
     src: "/Urent/video15.mp4",
+  },
+  {
+    src: "/Urent/video16.MP4",
   },
   {
     src: "https://player.cloudinary.com/embed/?cloud_name=dysyaxsnc&public_id=IMG_4436_qb8nfy&profile=cld-default",

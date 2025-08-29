@@ -13,36 +13,36 @@ const productData = {
   "Chute Type": {
     "1 Chute Type 64 Channels Frame": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875732/64_Channel_NW_machine_zvbkoy.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img69.png?updatedAt=1756188640505",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "1 Chute Type 64 Channels": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875333/64_channel_1_chute_a27wrm.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img76.png?updatedAt=1756188644236",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "2 Chute Type 128 Channels": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img75.png?updatedAt=1756188642786",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "2 Chute forward machine": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875993/128_Channel_Forward_2_chute_bgl5ai.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img66.png?updatedAt=1756188629426",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "3 chute forward machine": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876029/192_Channel_Forward_3_chute_kxffex.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img65.png?updatedAt=1756188627555",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "3 Chute 192 Channels": {
-      images: ["/img6.jpeg"],
+      images: ["https://ik.imagekit.io/bxhlcmkcf/Urent/img74.png?updatedAt=1756188642522"],
       link: "/ColorSorters/Chute-type",
     },
     "4 Chute 256 Channels": {
@@ -87,25 +87,25 @@ const productData = {
   Cashew: {
     "1 Chute Type Cashew ": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875682/64_channel_cashew_1_chute_nk2rok.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img70.png?updatedAt=1756188641256",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "2 Chute Type Cashew": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img75.png?updatedAt=1756188642786",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "2 Chute Type Cashew 2": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img67.png?updatedAt=1756188635515",
       ],
       link: "/ColorSorters/Chute-type",
     },
     "3 Chute Type Cashew": {
       images: [
-        "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875844/192_channel_cashew_3_chute_hsg4a6.jpg",
+        "https://ik.imagekit.io/bxhlcmkcf/Urent/img68.png?updatedAt=1756188636041",
       ],
       link: "/ColorSorters/Chute-type",
     },

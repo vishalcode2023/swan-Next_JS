@@ -8,31 +8,31 @@ const categories = [
     label: "Rice Color Sorter",
     icon: "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754988215/WhatsApp_Image_2025-08-12_at_1.17.50_PM_iskqkl.jpg",
     product:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876029/192_Channel_Forward_3_chute_kxffex.jpg",
+      "https://ik.imagekit.io/bxhlcmkcf/Urent/img75.png?updatedAt=1756188642786",
   },
   {
     label: "Coffee Color Sorter",
     icon: "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754987998/WhatsApp_Image_2025-08-12_at_1.03.53_PM_r6sgoa.jpg",
     product:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875993/128_Channel_Forward_2_chute_bgl5ai.jpg",
+      "https://ik.imagekit.io/bxhlcmkcf/Urent/img67.png?updatedAt=1756188635515",
   },
   {
     label: "Cashew Color Sorter",
     icon: "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754988078/WhatsApp_Image_2025-08-12_at_1.04.02_PM_qpjwwl.jpg",
     product:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875765/128_channel_cashew_2_chute_d2too2.jpg",
+      "https://ik.imagekit.io/bxhlcmkcf/Urent/img68.png?updatedAt=1756188636041",
   },
   {
     label: "Groundnut Color Sorter",
     icon: "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754987787/WhatsApp_Image_2025-08-12_at_1.03.31_PM_yhznvd.jpg",
     product:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875447/192_channel_3_chute_bdmqms.jpg",
+      "https://ik.imagekit.io/bxhlcmkcf/Urent/img66.png?updatedAt=1756188629426",
   },
   {
     label: "Plastic Color Sorter",
     icon: "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754987856/WhatsApp_Image_2025-08-12_at_1.03.41_PM_fjqndp.jpg",
     product:
-      "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746876210/300_slow_conveyor_ljcxfk.jpg",
+      "https://ik.imagekit.io/bxhlcmkcf/Urent/img69.png?updatedAt=1756188640505",
   },
 ];
 

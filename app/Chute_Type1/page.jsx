@@ -57,7 +57,7 @@ const products = [
   },
   {
     name: " Swan 4 chute 256 channel",
-    image: "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875490/256_channel_4_chute_wuw2wp.jpg",
+    image: "https://ik.imagekit.io/bxhlcmkcf/Urent/Screenshot%202025-08-26%20170426.png?updatedAt=1756208197557",
     description:
       "Flagship model built for ultra-speed industrial-scale operations.",
     features: [

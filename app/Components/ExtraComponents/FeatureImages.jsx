@@ -3,10 +3,10 @@
 import Image from "next/image";
 
 const featureImages = [
-  "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875333/64_channel_1_chute_a27wrm.jpg",
-  "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875391/128_channel_2_chute_zwprka.jpg",
-  "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875532/320_Channel_5_chute_pyq62s.jpg",
-  "https://res.cloudinary.com/dybpd6dkz/image/upload/v1746875993/128_Channel_Forward_2_chute_bgl5ai.jpg",
+  "https://ik.imagekit.io/bxhlcmkcf/Urent/img76.png?updatedAt=1756188644236",
+  "https://ik.imagekit.io/bxhlcmkcf/Urent/img75.png?updatedAt=1756188642786",
+  "https://ik.imagekit.io/bxhlcmkcf/Urent/img73.png?updatedAt=1756188641418",
+  "https://ik.imagekit.io/bxhlcmkcf/Urent/img66.png?updatedAt=1756188629426",
 ];
 
 const FeatureImages = () => {

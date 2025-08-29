@@ -275,8 +275,8 @@ const TechnologyPage = () => {
               "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754816714/WhatsApp_Image_2025-08-06_at_7.24.21_PM_fccrsv.jpg",
               "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754967952/WhatsApp_Image_2025-08-11_at_7.07.04_PM_2_o409d6.jpg",
               "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754813095/WhatsApp_Image_2025-08-06_at_7.24.04_PM_1_xgmhqp.jpg",
-              "/photo-1523312727315-7c6ae09c3d09.avif",
-              "/photo-1567080586917-e6ab6aa0df85.avif",
+              "https://ik.imagekit.io/bxhlcmkcf/Urent/img4.png?updatedAt=1756188607483",
+              "https://res.cloudinary.com/dysyaxsnc/image/upload/v1755237649/WhatsApp_Image_2025-08-15_at_11.29.38_AM_tcchrd.jpg",
               "/photo-1596564823703-d28706a620e8.avif",
               "/photo-1574323347407-f5e1ad6d020b (1).avif",
             ].map((src, index) => (

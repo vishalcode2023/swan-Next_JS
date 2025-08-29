@@ -9,7 +9,8 @@ const inputImages = [
   // "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754975340/WhatsApp_Image_2025-08-12_at_10.31.05_AM_ux8vyr.jpg",
   "https://res.cloudinary.com/dysyaxsnc/image/upload/v1755072465/WhatsApp_Image_2025-08-13_at_1.25.08_PM_fenthf.jpg",
   "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754987080/WhatsApp_Image_2025-08-12_at_1.00.18_PM_mgq8bv.jpg",
-  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754984366/WhatsApp_Image_2025-08-12_at_12.50.28_PM_faj8dl.jpg"
+  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754984366/WhatsApp_Image_2025-08-12_at_12.50.28_PM_faj8dl.jpg",
+  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754985253/WhatsApp_Image_2025-08-12_at_12.54.10_PM_j82ghm.jpg"
 
 ];
 
@@ -19,7 +20,8 @@ const acceptImages = [
   // "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754813095/WhatsApp_Image_2025-08-06_at_7.24.04_PM_1_xgmhqp.jpg",
   "https://res.cloudinary.com/dysyaxsnc/image/upload/v1755072466/WhatsApp_Image_2025-08-13_at_1.25.28_PM_boceya.jpg",
   "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754987087/WhatsApp_Image_2025-08-12_at_1.00.36_PM_dh3zin.jpg",
-  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754984374/WhatsApp_Image_2025-08-12_at_12.51.04_PM_ktxrlt.jpg"
+  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754984374/WhatsApp_Image_2025-08-12_at_12.51.04_PM_ktxrlt.jpg",
+  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754985254/WhatsApp_Image_2025-08-12_at_12.54.23_PM_hiye8n.jpg"
 ];
 
 const rejectionImages = [
@@ -28,7 +30,8 @@ const rejectionImages = [
   // "https://res.cloudinary.com/dt2juqy9s/image/upload/v1754813400/WhatsApp_Image_2025-08-06_at_7.24.05_PM_v3nyya.jpg",
   "https://res.cloudinary.com/dysyaxsnc/image/upload/v1755072466/WhatsApp_Image_2025-08-13_at_1.25.17_PM_us1iq2.jpg",
   "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754987085/WhatsApp_Image_2025-08-12_at_1.01.25_PM_rips1q.jpg",
-  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754984384/WhatsApp_Image_2025-08-12_at_12.51.20_PM_uvjwe3.jpg"
+  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1754984384/WhatsApp_Image_2025-08-12_at_12.51.20_PM_uvjwe3.jpg",
+  "https://res.cloudinary.com/dysyaxsnc/image/upload/v1755152046/WhatsApp_Image_2025-08-14_at_11.38.59_AM_axw63k.jpg"
   
 ];
 
