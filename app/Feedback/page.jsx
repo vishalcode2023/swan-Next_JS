@@ -133,6 +133,20 @@ const installationSteps = [
   },
   {
     img:"https://res.cloudinary.com/dysyaxsnc/image/upload/v1755073258/WhatsApp_Image_2025-08-13_at_1.06.57_PM_jsagxy.jpg"
+  },
+
+
+  {
+    img:"/Urent/FeedbackSectionimg.jpeg"
+  },
+  {
+    img:"/Urent/FeedbackSectionimg1.jpeg"
+  },
+  {
+    img:"/Urent/FeedbackSectionimg2.jpeg"
+  },
+  {
+    img:"/Urent/FeedbackSectionimg4.jpeg"
   }
 ];
 
